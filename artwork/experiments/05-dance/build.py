@@ -116,7 +116,12 @@ def sound(notes):
         w.setnchannels(2);w.setsampwidth(2);w.setframerate(SR);w.writeframes(pcm.tobytes())
     return duration
 
-def score(notes):
+def score(notes, output_dir=None, translations=None):
+    dest=Path(output_dir) if output_dir else HERE
+    dest.mkdir(parents=True,exist_ok=True)
+    def tr(value):
+        for a,b in sorted((translations or {}).items(),key=lambda x:len(x[0]),reverse=True):value=value.replace(a,b)
+        return value
     W,H=1600,1050
     out=['<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">',
          '<rect width="1600" height="1050" fill="#fff9e9"/>',
@@ -125,10 +130,10 @@ def score(notes):
          '<text x="74" y="177" fill="#df5237" font-family="sans-serif" font-size="22">7/8  ·  3 + 2 + 2  ·  ♩ = 152  ·  три голоса учатся продолжать друг друга</text>']
     pdfmetrics.registerFont(TTFont('DanceSerif','/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf'))
     pdfmetrics.registerFont(TTFont('DanceBody','/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'))
-    c=canvas.Canvas(str(HERE/'graphic-score.pdf'),pagesize=(800,525));c.setTitle('Танец трёх клеток — графическая партитура')
+    c=canvas.Canvas(str(dest/'graphic-score.pdf'),pagesize=(800,525));c.setTitle(tr('Танец трёх клеток — графическая партитура'))
     c.setFillColor(HexColor('#fff9e9'));c.rect(0,0,800,525,stroke=0,fill=1)
     def txt(x,y,s,size,colour='#214b3b',serif=False):
-        c.setFont('DanceSerif' if serif else 'DanceBody',size/2);c.setFillColor(HexColor(colour));c.drawString(x/2,(H-y)/2,s)
+        c.setFont('DanceSerif' if serif else 'DanceBody',size/2);c.setFillColor(HexColor(colour));c.drawString(x/2,(H-y)/2,tr(s))
     txt(70,65,'НОЧНАЯ ЛАБОРАТОРИЯ / 05 / СЛУШАТЬ',14,'#417a58')
     txt(70,135,'Танец трёх клеток',56,serif=True)
     txt(74,177,'7/8 · 3 + 2 + 2 · четверть = 152',22,'#df5237')
@@ -156,7 +161,7 @@ def score(notes):
     txt(70,1033,channel,14,'#417a58')
     c.linkURL('https://t.me/phys_math_dev',(35,5,250,16),relative=0,thickness=0)
     c.save()
-    (HERE/'graphic-score.svg').write_text('\n'.join(out))
+    (dest/'graphic-score.svg').write_text(tr('\n'.join(out)))
 
 def main():
     notes=arrangement();midi(notes);duration=sound(notes);score(notes)

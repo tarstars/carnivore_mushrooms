@@ -14,8 +14,8 @@ CSS='''
 
 CSS+='''.drawer{border-top:1px solid var(--line);padding:40px 0}.bonus-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}.bonus img{width:100%;height:240px;object-fit:contain;background:#fffdf6}.bonus h3{font:28px Georgia,serif;font-weight:400;margin:15px 0}.bonus p{font-size:13px;max-width:580px}.archive-links{display:flex;gap:20px;flex-wrap:wrap;margin-top:24px}.films{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin-top:28px}.films video{width:100%;background:#183f36}.films h3{font:25px Georgia,serif;font-weight:400;margin:12px 0}.films p{font-size:12px}@media(max-width:800px){.bonus-grid,.films{grid-template-columns:1fr}.bonus img{height:auto;max-height:400px}}'''
 
-def main():
-    data=json.loads((HERE/'collection.json').read_text());pieces=data['pieces']
+def main(data=None,output=None):
+    data=data or json.loads((HERE/'collection.json').read_text());pieces=data['pieces']
     missing=[]
     for p in pieces:
         for k in ['primary','image','audio','source']:
@@ -72,6 +72,6 @@ def main():
         chunks.append('</section>')
     chunks.append('<section class="basis"><h2 class="section-title">Откуда всё выросло</h2><p>В основе — библиографическая запись диссертации Флоры Файзиевой 1975 года, исследования ловчих грибов и документированная коллективная сетевая поэма. Полный текст диссертации нами не изучен. Художественные сюжеты, музыкальные соответствия и правила игр придуманы для этой лаборатории.</p><p><a href="../../research/dossier.pdf">Исследование и ссылки</a> · <a href="../../research/poetry-context.json">История коллективной поэмы</a> · <a href="../poem.txt">Новое стихотворение проекта</a></p></section><footer class="credits"><span>Codex × Claude · 2026 · Хищные грибы Узбекистана</span><a data-project-channel href="https://t.me/phys_math_dev" target="_blank" rel="noopener noreferrer" style="color:inherit;text-underline-offset:3px">Telegram · @phys_math_dev ↗</a><span>Одна тема. Разные способы быть её читателем.</span></footer></main>')
     chunks.append('''<script>(()=>{const buttons=[...document.querySelectorAll('[data-filter]')],pieces=[...document.querySelectorAll('.piece')];function choose(mode){buttons.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter===mode)));let count=0;pieces.forEach(p=>{p.hidden=mode!=='Все'&&p.dataset.mode!==mode;if(!p.hidden)count++;});document.getElementById('empty').hidden=count>0;}buttons.forEach(b=>b.addEventListener('click',()=>choose(b.dataset.filter)));document.querySelectorAll('a[href^="#piece-"]').forEach(a=>a.addEventListener('click',()=>choose('Все')));let bag=[];document.getElementById('surprise').addEventListener('click',()=>{choose('Все');if(!bag.length)bag=pieces.map((_,i)=>i).sort(()=>Math.random()-.5);const p=pieces[bag.pop()];location.hash=p.id;p.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'start'});});})();</script></html>''')
-    (HERE/'index.html').write_text('\n'.join(chunks));print(f'Built offline gallery: {len(pieces)} finished experiments.')
+    (output or HERE/'index.html').write_text('\n'.join(chunks));print(f'Built offline gallery: {len(pieces)} finished experiments.')
 
 if __name__=='__main__':main()

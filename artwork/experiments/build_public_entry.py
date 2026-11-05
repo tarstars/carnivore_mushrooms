@@ -50,4 +50,6 @@ def main():
     (ROOT/'game').mkdir(exist_ok=True);(ROOT/'game/index.html').write_text(game)
     (ROOT/'.nojekyll').touch()
     print('Built public root gallery and /game/.')
+    from build_english import main as english
+    english()
 if __name__=='__main__':main()

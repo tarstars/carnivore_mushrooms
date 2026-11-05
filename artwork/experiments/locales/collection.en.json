@@ -1,0 +1,259 @@
+{
+  "title": "One title. Ten ways to grow.",
+  "pieces": [
+    {
+      "id": "01",
+      "title": "Collective mycelium",
+      "mode": "Participate",
+      "owner": "Codex",
+      "angle": "A poem as a shared living space",
+      "description": "Choose a flower and continue its line. One rhyme can grow several neighbours: you become the author of its next branch.",
+      "image": "artwork/experiments/01-chorus/cover.png",
+      "primary": "artwork/experiments/01-chorus/index.html",
+      "action": "Plant your own line",
+      "links": [],
+      "source": "artwork/experiments/01-chorus/index.html",
+      "note": "The opening lines are an English rendering of the project poem. Your branches stay in this browser."
+    },
+    {
+      "id": "02",
+      "title": "An invitation to the table",
+      "mode": "Participate",
+      "owner": "Codex",
+      "angle": "Hospitality as a gentle trap for the reader",
+      "description": "The garden hosts have laid the tea table and are waiting for your reply. “I will come”, “I cannot come” and “Already caught” each receive a different answer. Print your reply as a place card.",
+      "image": "artwork/experiments/02-dinner/cover.png",
+      "primary": "artwork/experiments/02-dinner/index.html",
+      "action": "Answer the hosts",
+      "links": [
+        {
+          "label": "Invitation and place cards · English PDF",
+          "path": "artwork/experiments/02-dinner/invitation-and-placecards.pdf"
+        },
+        {
+          "label": "The sunny courtyard · image",
+          "path": "artwork/experiments/02-dinner/dinner-invitation.png"
+        }
+      ],
+      "source": "artwork/experiments/02-dinner/build_invitation.py",
+      "note": "New verses and an imagined dinner. Claude’s critique turned the photograph into a prop for an action."
+    },
+    {
+      "id": "08",
+      "title": "Greetings from underground",
+      "mode": "Read",
+      "owner": "Claude · reading room by Codex",
+      "angle": "Research history as letters from a disgruntled participant",
+      "description": "The worm has an aunt, a sense of humour, and several complaints about researchers. Six sunny postcards become a small travel monologue. “Hugs with all the segments I do not have.”",
+      "image": "media/output/experiments/postcards/fronts_sheet.png",
+      "primary": "artwork/experiments/08-postcards/index.html",
+      "action": "Turn over the first postcard",
+      "links": [
+        {
+          "label": "Six English postcards · printable PDF",
+          "path": "media/output/experiments/postcards/postcards_A4_duplex.pdf"
+        }
+      ],
+      "source": "media/experiments/postcards/build.py",
+      "note": "Fictional correspondence and an imagined itinerary. The letters are not a documentary chronology of particular experiments."
+    },
+    {
+      "id": "05",
+      "title": "Dance of three cells",
+      "mode": "Listen",
+      "owner": "Codex",
+      "angle": "Rhyme as a musical conversation",
+      "description": "One voice begins, a neighbour answers, and an ensemble takes shape. In 7/8, the phrase catches briefly in its own loop before it goes dancing again.",
+      "image": "artwork/experiments/05-dance/cover.png",
+      "primary": "artwork/experiments/05-dance/listen.html",
+      "action": "Listen and follow the rhythm",
+      "audio": "artwork/experiments/05-dance/dance-of-three-cells.mp3",
+      "links": [
+        {
+          "label": "WAV",
+          "path": "artwork/experiments/05-dance/dance-of-three-cells.wav"
+        },
+        {
+          "label": "Editable MIDI",
+          "path": "artwork/experiments/05-dance/dance-of-three-cells.mid"
+        },
+        {
+          "label": "English graphic score",
+          "path": "artwork/experiments/05-dance/graphic-score.pdf"
+        }
+      ],
+      "source": "artwork/experiments/05-dance/build.py",
+      "note": "An original composition and synthesised ensemble; neither recorded fungi nor traditional Uzbek music."
+    },
+    {
+      "id": "06",
+      "title": "Nematode",
+      "mode": "Play",
+      "owner": "Claude",
+      "angle": "The soil seen by the creature being hunted",
+      "description": "You are a tiny roundworm. A scent promises food, and the fungus is very good at making promises. Steer through the soil and try to survive its rings and sticky nets.",
+      "image": "artwork/experiments/review/nematoda-desktop-fixed.png",
+      "primary": "media/experiments/nematoda/nematoda.html",
+      "action": "Enter the other side of the trap",
+      "source": "media/experiments/nematoda/index.html",
+      "note": "Mouse, arrow keys or touch. An artistic game in imagined soil, not a model of a particular Uzbek species."
+    },
+    {
+      "id": "03",
+      "title": "The dissertation that sprouted",
+      "mode": "Read",
+      "owner": "Codex",
+      "angle": "Collective poetry as a comic adventure",
+      "description": "Six panels: a discovery in a catalogue, the first letters, neighbours, open windows, a small roundworm, and a page waiting for its next reader.",
+      "image": "artwork/experiments/03-comic/the-dissertation-that-sprouted.png",
+      "primary": "artwork/experiments/03-comic/the-dissertation-that-sprouted.png",
+      "action": "Read the comic",
+      "links": [
+        {
+          "label": "English print edition · A3",
+          "path": "artwork/experiments/03-comic/comic-print.pdf"
+        }
+      ],
+      "source": "artwork/experiments/03-comic/prompt.txt",
+      "note": "A fictional story and characters. The archivist is not a portrait of Flora Fayzieva."
+    },
+    {
+      "id": "04",
+      "title": "The Bureau of Self-Germinating Titles",
+      "mode": "Make",
+      "owner": "Codex",
+      "angle": "A paper comedy about the urge to classify everything",
+      "description": "A completed example and a blank copy. This form permits growth beyond its own margins; tear off its little roots and pass them to your neighbours.",
+      "image": "artwork/experiments/04-bureau/cover.png",
+      "primary": "artwork/experiments/04-bureau/self-germinating-form.pdf",
+      "action": "Open the English form",
+      "links": [],
+      "source": "artwork/experiments/04-bureau/build.py",
+      "note": "A fictional art document. English printable PDF and browser form."
+    },
+    {
+      "id": "07",
+      "title": "Letters that grow themselves",
+      "mode": "Look",
+      "owner": "Claude",
+      "angle": "A title becomes an organism",
+      "description": "A branching algorithm colonises three lines of lettering. Fine twigs and jade rings emerge: the title stops describing a mycelium and becomes one.",
+      "image": "media/output/experiments/hyphatype/hyphatype_preview.png",
+      "primary": "media/output/experiments/hyphatype/hyphatype_poster.png",
+      "action": "Examine the grown lettering",
+      "links": [
+        {
+          "label": "English vector poster · SVG",
+          "path": "media/output/experiments/hyphatype/hyphatype_poster.svg"
+        }
+      ],
+      "source": "media/experiments/hyphatype/build.py",
+      "note": "Algorithmic lettering, not an installable font. An English type specimen accompanies the Russian original."
+    },
+    {
+      "id": "09",
+      "title": "An almost endless song",
+      "mode": "Participate",
+      "owner": "Claude",
+      "angle": "A title becomes a rule for a two-voice poetry game",
+      "description": "The machine recombines new lines and returns the title as a refrain. Choose “Two voices ×4” and alternate stanzas with someone: your voices keep changing the same mechanism.",
+      "image": "artwork/experiments/review/poemachine.png",
+      "primary": "media/experiments/poemachine/poemachine.html",
+      "action": "Start the call and response",
+      "links": [
+        {
+          "label": "English verse sample",
+          "path": "media/output/experiments/poemachine/sample_seed1975.txt"
+        }
+      ],
+      "source": "media/experiments/poemachine/poemachine.py",
+      "note": "New English verse for this edition. The historical collective internet poem is not reproduced."
+    },
+    {
+      "id": "10",
+      "title": "Tamagryb",
+      "mode": "Play",
+      "owner": "Claude · entry room by Codex",
+      "angle": "Caring for a predator",
+      "description": "It needs agar, food, and a patient keeper. This terminal pet builds traps, keeps a diary, sulks at the spoon, and thinks about its dissertation. You can begin with its diary.",
+      "image": "media/output/experiments/tamagrib/screen.png",
+      "primary": "artwork/experiments/10-pet/index.html",
+      "action": "Meet your new pet",
+      "links": [
+        {
+          "label": "English culture diary",
+          "path": "media/output/experiments/tamagrib/demo_diary.txt"
+        }
+      ],
+      "source": "media/experiments/tamagrib/tamagrib.py",
+      "note": "A terminal game: Python 3 + curses; the dish adapts to the window. --demo prints a diary. Progress is not saved between runs."
+    }
+  ],
+  "shortlist": [
+    {
+      "id": "02",
+      "title": "An invitation to the table",
+      "reason": "the warmest entrance: one answer makes you part of the scene."
+    },
+    {
+      "id": "01",
+      "title": "Collective mycelium",
+      "reason": "poetry becomes a shared action: the next branch depends on your line."
+    },
+    {
+      "id": "05",
+      "title": "Dance of three cells",
+      "reason": "a change of sense: a rhythm you can join, rather than an explanation to read."
+    }
+  ],
+  "bonus": [
+    {
+      "title": "Paper theatre",
+      "image": "media/output/experiments/papertheatre/sheet1_preview.png",
+      "path": "media/output/experiments/papertheatre/papertheatre_A4.pdf",
+      "description": "Four sheets: backdrop, ring, separate cells and a worm. The layout fits the pages. A making prototype; physical assembly has not been tested. Russian print kit."
+    },
+    {
+      "title": "Trapping ring: a game for two",
+      "image": "media/output/experiments/cardgame/cards_preview.png",
+      "path": "media/output/experiments/cardgame/lovchee_kolco_cards_A4.pdf",
+      "description": "36 cards: Fungus versus Worm. Resolution order and duplex alignment have been revised. A tabletop prototype; balance has not been playtested. Russian print kit."
+    },
+    {
+      "title": "Petri theatre",
+      "image": "media/output/experiments/soilsim/soilsim_0035s.png",
+      "path": "media/output/experiments/soilsim/soilsim.mp4",
+      "description": "Forty seconds in an imagined dish: a trail, growth, an encounter. A programmed artistic composite of different trapping mechanisms, not a calibrated biological model."
+    },
+    {
+      "title": "A ring you can hold",
+      "image": "media/output/experiments/ringstl/ringstl_preview.png",
+      "path": "media/output/experiments/ringstl/ring_rest.stl",
+      "description": "Three STL mesh studies of rings and a pendant. Overlapping shells and the pendant seam need further work. Physical printing has not been tested.",
+      "links": [
+        {
+          "label": "Inflated ring",
+          "path": "media/output/experiments/ringstl/ring_inflated.stl"
+        },
+        {
+          "label": "Pendant",
+          "path": "media/output/experiments/ringstl/ring_pendant.stl"
+        }
+      ]
+    }
+  ],
+  "correspondence": [
+    {
+      "title": "01 · Two authors, separate worktables",
+      "path": "media/input/night-lab-letter-01.txt"
+    },
+    {
+      "title": "02 · Claude asks the picture to become an action",
+      "path": "coordination/claude-critique-excerpt.txt"
+    },
+    {
+      "title": "03 · Codex accepts the challenge and returns a review",
+      "path": "media/input/night-lab-letter-08.txt"
+    }
+  ]
+}

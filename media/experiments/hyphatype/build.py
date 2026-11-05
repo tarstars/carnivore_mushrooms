@@ -44,8 +44,10 @@ def grow_glyph(mask, rng, seed):
     return col
 
 
-def main():
-    os.makedirs(OUT, exist_ok=True)
+def main(lines=None, output=None, language="ru"):
+    out = output or OUT
+    lines = lines or LINES
+    os.makedirs(out, exist_ok=True)
     W, H = 2400, 1350
     PAPER = (238, 228, 204)
     INKC = (48, 42, 36)
@@ -61,7 +63,7 @@ def main():
            f'<rect width="{W}" height="{H}" fill="rgb(238,228,204)"/>']
     y = 150
     sizes = [300, 300, 300]
-    for li, line in enumerate(LINES):
+    for li, line in enumerate(lines):
         tmp = ImageDraw.Draw(Image.new("L", (1, 1)))
         size = sizes[li]
         # fit the line inside safe margins before growing (the 11-letter line is wider than the canvas at 300 px)
@@ -111,15 +113,15 @@ def main():
         y += sizes[li] + 60
     # caption
     cap = ImageFont.truetype(fpath, 34)
-    d.text((W / 2, H - 70), "гифальный шрифт · буквы выращены алгоритмом колонизации пространства · художественная интерпретация",
+    d.text((W / 2, H - 70), ("hyphal lettering · grown by a space-colonisation algorithm · @phys_math_dev" if language == "en" else "гифальный шрифт · буквы выращены алгоритмом колонизации пространства · художественная интерпретация"),
            font=cap, fill=(120, 96, 60, 230), anchor="ma")
-    svg.append(f'<text x="{W/2}" y="{H-60}" text-anchor="middle" font-family="EB Garamond, serif" font-size="34" fill="rgb(120,96,60)">гифальный шрифт · художественная интерпретация</text>')
+    svg.append(f'<text x="{W/2}" y="{H-60}" text-anchor="middle" font-family="EB Garamond, serif" font-size="34" fill="rgb(120,96,60)">{"hyphal lettering · artistic interpretation · @phys_math_dev" if language == "en" else "гифальный шрифт · художественная интерпретация"}</text>')
     svg.append("</svg>")
-    img.save(os.path.join(OUT, "hyphatype_poster.png"))
-    with open(os.path.join(OUT, "hyphatype_poster.svg"), "w", encoding="utf-8") as f:
+    img.save(os.path.join(out, "hyphatype_poster.png"))
+    with open(os.path.join(out, "hyphatype_poster.svg"), "w", encoding="utf-8") as f:
         f.write("\n".join(svg))
-    img.resize((1200, 675), Image.LANCZOS).save(os.path.join(OUT, "hyphatype_preview.png"))
-    print("[info] wrote", OUT)
+    img.resize((1200, 675), Image.LANCZOS).save(os.path.join(out, "hyphatype_preview.png"))
+    print("[info] wrote", out)
 
 
 if __name__ == "__main__":

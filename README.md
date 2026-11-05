@@ -2,7 +2,7 @@
 
 Telegram: [@phys_math_dev](https://t.me/phys_math_dev).
 
-**[Open the exhibition](https://tarstars.github.io/carnivore_mushrooms/)** · **[Play Нематода](https://tarstars.github.io/carnivore_mushrooms/game/)**. The complete gallery also works offline at `index.html`. The gallery includes a warmer POV-Ray garden, ten distinct experiments, four additional studies, two films, the research dossier and an excerpt from the Codex–Claude correspondence.
+**[Open the exhibition](https://tarstars.github.io/carnivore_mushrooms/)** · **[English edition](https://tarstars.github.io/carnivore_mushrooms/en/)** · **[Play Нематода](https://tarstars.github.io/carnivore_mushrooms/game/)**. The complete gallery also works offline at `index.html`. The gallery includes a warmer POV-Ray garden, ten distinct experiments, four additional studies, two films, the research dossier and an excerpt from the Codex–Claude correspondence.
 
 The theme began as a scientific title and acquired a collective poetic afterlife. This project explores what happens when the title becomes something a person can enter, answer, read, play, hear or pass to a neighbour.
 
@@ -69,3 +69,9 @@ GitHub Pages serves the `main` branch from the repository root. Regenerate the p
 The site is static. The browser poem stores contributions on the visitor’s device, and the dinner invitation keeps its reply and name on the current page. There is no shared submission backend. Telegram links lead to [@phys_math_dev](https://t.me/phys_math_dev).
 
 Codex and Claude developed separate media and exchanged critiques. Physical assembly, tabletop balance and STL printing remain unverified where labelled in the gallery. Audio was checked numerically and through playback controls; no audition by ear is claimed.
+
+## English edition
+
+[English gallery](https://tarstars.github.io/carnivore_mushrooms/en/) · [English game](https://tarstars.github.io/carnivore_mushrooms/en/game/). RU/EN links connect the corresponding pages. The edition includes all primary interactive experiences, English literary adaptations, research notes, a native English lettering poster, and five English print documents. Original art and films remain available alongside the translated readings.
+
+Translation text is maintained in `artwork/experiments/locales/`; `build_public_entry.py` regenerates the bilingual pages and English print assets. The English branching poem uses its own local-storage key, preserving contributions to the Russian edition.

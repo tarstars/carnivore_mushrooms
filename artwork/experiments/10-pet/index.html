@@ -1,0 +1,22 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Тамагриб — поселить хищника</title><style>*{box-sizing:border-box}body{margin:0;background:#fff8e8;color:#254c3b;font:16px/1.65 system-ui,sans-serif}main{max-width:1120px;margin:auto;padding:25px 5vw 60px}a{color:inherit;text-underline-offset:4px}h1{font:clamp(36px,6vw,68px)/1.06 Georgia,serif;font-weight:400;letter-spacing:-.035em;margin:30px 0 20px}.eyebrow{font-size:11px;letter-spacing:.15em;color:#a54c36}button{font:600 14px system-ui;border:1px solid #b5c4a9;background:transparent;color:#254c3b;padding:12px 17px;cursor:pointer}button:hover{background:#254c3b;color:#fff8e8}button:focus-visible,a:focus-visible{outline:3px solid #e5af37;outline-offset:4px}.tools{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0;align-items:center}img{display:block;width:100%;height:auto}.small{font-size:12px;color:#61795e;max-width:850px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.8 ui-monospace,monospace;background:#f1f1dd;padding:20px}details{margin-top:20px}summary{cursor:pointer}code{overflow-wrap:anywhere}.back{font-size:12px}.links{display:flex;flex-wrap:wrap;gap:20px;margin-top:25px}#card{max-height:68vh;object-fit:contain}#place{font:26px Georgia,serif;margin:0 0 10px}.screen{max-width:900px;margin:25px 0}</style><main><a class="back" href="../index.html">← Ночная лаборатория</a><h1>А если за хищником<br>нужно ухаживать?</h1><p class="eyebrow">Тамагриб / терминальный питомец / Claude</p><p>Выпускайте червей, перемешивайте агар, читайте дневник. Культура растит ловушки, скучает и мечтает о диссертации.</p><img class="screen" src="../../../media/output/experiments/tamagrib/screen.png" alt="Тамагриб: чашка Петри в терминале, кольца, сети и показатели культуры"><h2>Поселить у себя</h2><p>Из папки проекта запустите в терминале (обычное окно 80 × 24 подходит):</p><pre id="command">python3 media/experiments/tamagrib/tamagrib.py</pre><button id="copy">Скопировать команду</button><p><code>w</code> — выпустить червя · <code>s</code> — перемешать · <code>r</code> — час вперёд · <code>d</code> — дневник · <code>q</code> — выйти.</p><details><summary>Почитать дневник без запуска</summary><pre>День 0. Меня посеяли. Чашка Петри, агар, тишина.
+День 0. Построил клейкую сеть. Пусть сохнет.
+День 0. Построил клейкую сеть. Пусть сохнет.
+День 0. Построил клейкую сеть. Пусть сохнет.
+День 0. Построил кольцо. Созреет часов через пять.
+День 0. Построил клейкую сеть. Пусть сохнет.
+День 0. Построил кольцо. Созреет часов через пять.
+День 0. Построил кольцо. Созреет часов через пять.
+День 1. Думаю о диссертации. Сто пятьдесят девять страниц обо мне. Ташкент, 1975.
+День 1. Построил кольцо. Созреет часов через пять.
+День 1. Построил клейкую сеть. Пусть сохнет.
+День 1. Построил кольцо. Созреет часов через пять.
+День 1. Построил клейкую сеть. Пусть сохнет.
+День 1. Сеть схватила. Прорастаю внутрь, переварю за сутки.
+День 2. Хозяин мешал агар ложкой. Запахи сбились. Обидно.
+День 2. Построил кольцо. Созреет часов через пять.
+День 2. Построил клейкую сеть. Пусть сохнет.
+День 2. Построил клейкую сеть. Пусть сохнет.
+День 3. Еды много, ловушки не нужны. Отдыхаю. Расту во все стороны.
+
+[поймано 1, звание: культура]
+</pre></details><div class="links"><a download="tamagrib.py" href="../../../media/experiments/tamagrib/tamagrib.py">Скачать Python-скрипт</a><a href="../../../media/output/experiments/tamagrib/demo_diary.txt">Текст дневника</a></div><p class="small">Нужны Python 3 и терминал с curses (Linux/macOS). Для любого размера окна доступен текстовый режим: добавьте <code>--demo</code> к команде. Это самостоятельная терминальная игра. Сохранение между запусками не предусмотрено. Питомец — вымышленный составной организм: в биологии клейкие сети и сжимающиеся кольца относятся к разным механизмам ловли.</p><p class="small"><a data-project-channel href="https://t.me/phys_math_dev" target="_blank" rel="noopener noreferrer" style="color:inherit;text-underline-offset:3px">Telegram · @phys_math_dev ↗</a></p></main><script>document.querySelector('#copy').onclick=async()=>{const b=document.querySelector('#copy');try{await navigator.clipboard.writeText(document.querySelector('#command').textContent);b.textContent='Команда скопирована'}catch(e){const r=document.createRange();r.selectNodeContents(document.querySelector('#command'));const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Команда выделена — скопируйте её';}};</script></html>

@@ -1,0 +1,30 @@
+# Studio coordination and machine/session state stay local.
+/AGENTS.md
+/CLAUDE.md
+/coordination/*
+!/coordination/claude-critique-excerpt.txt
+/media/AGENTS.md
+/media/STATUS.md
+/media/research_notes.md
+/media/input/*
+!/media/input/brief.json
+!/media/input/illustration.png
+!/media/input/poetry-direction.json
+!/media/input/poetry-illustration.png
+!/media/input/night-lab-letter-01.txt
+!/media/input/night-lab-letter-08.txt
+# Render intermediates and verification reports.
+/media/pov/frames*/
+/media/pov/chain_warm.sh
+/artwork/experiments/review/*
+!/artwork/experiments/review/nematoda-desktop-fixed.png
+!/artwork/experiments/review/poemachine.png
+!/artwork/experiments/review/poetry-final-45.png
+__pycache__/
+*.py[cod]
+*.log
+*.stderr
+*.tmp
+.DS_Store
+.env
+.env.*

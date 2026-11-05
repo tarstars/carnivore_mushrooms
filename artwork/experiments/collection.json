@@ -1,0 +1,258 @@
+{
+  "title": "Одно название. Десять способов разрастись.",
+  "pieces": [
+    {
+      "id": "01",
+      "title": "Коллективный мицелий",
+      "mode": "Участвовать",
+      "owner": "Codex",
+      "angle": "Стихотворение как общее живое пространство",
+      "description": "Выберите цветок, продолжите его строку. У одной рифмы могут вырасти разные соседи: автором следующей ветки становитесь вы.",
+      "image": "artwork/experiments/01-chorus/cover.png",
+      "primary": "artwork/experiments/01-chorus/index.html",
+      "action": "Посадить свою строку",
+      "links": [],
+      "source": "artwork/experiments/01-chorus/index.html"
+    },
+    {
+      "id": "02",
+      "title": "Приглашение к столу",
+      "mode": "Участвовать",
+      "owner": "Codex",
+      "angle": "Гостеприимство как мягкая ловушка для читателя",
+      "description": "Хозяева сада накрыли чайный стол и ждут вашего ответа. «Приду», «Не приду» и «Уже пойман» открывают разные реплики. Из ответа можно сделать настоящую карточку для стола.",
+      "image": "artwork/experiments/02-dinner/cover.png",
+      "primary": "artwork/experiments/02-dinner/index.html",
+      "action": "Ответить хозяевам",
+      "links": [
+        {
+          "label": "Приглашение и карточки · PDF",
+          "path": "artwork/experiments/02-dinner/invitation-and-placecards.pdf"
+        },
+        {
+          "label": "Солнечный двор · изображение",
+          "path": "artwork/experiments/02-dinner/dinner-invitation.png"
+        }
+      ],
+      "source": "artwork/experiments/02-dinner/build_invitation.py",
+      "note": "Новые стихи и вымышленный ужин. По предложению Claude изображение стало реквизитом для действия."
+    },
+    {
+      "id": "08",
+      "title": "Привет из-под почвы",
+      "mode": "Читать",
+      "owner": "Claude · комната чтения Codex",
+      "angle": "История науки как переписка крайне недовольного участника",
+      "description": "У червяка есть тётя, чувство юмора и претензии к исследователям. Шесть солнечных открыток постепенно складываются в маленький дорожный монолог. «Обнимаю всеми сегментами, которых у меня нет».",
+      "image": "media/output/experiments/postcards/fronts_sheet.png",
+      "primary": "artwork/experiments/08-postcards/index.html",
+      "action": "Перевернуть первую открытку",
+      "links": [
+        {
+          "label": "Шесть открыток для печати · PDF",
+          "path": "media/output/experiments/postcards/postcards_A4_duplex.pdf"
+        }
+      ],
+      "source": "media/experiments/postcards/build.py",
+      "note": "Вымышленная переписка и воображаемый маршрут. Письма не служат документальной хронологией конкретных опытов."
+    },
+    {
+      "id": "05",
+      "title": "Танец трёх клеток",
+      "mode": "Слушать",
+      "owner": "Codex",
+      "angle": "Рифма как музыкальная перекличка",
+      "description": "Сначала звучит один голос, затем появляется сосед, потом — целый ансамбль. В размере 7/8 фраза ненадолго попадает в собственную петлю и снова выходит танцевать.",
+      "image": "artwork/experiments/05-dance/cover.png",
+      "primary": "artwork/experiments/05-dance/listen.html",
+      "action": "Слушать и следить за ритмом",
+      "audio": "artwork/experiments/05-dance/dance-of-three-cells.mp3",
+      "links": [
+        {
+          "label": "WAV",
+          "path": "artwork/experiments/05-dance/dance-of-three-cells.wav"
+        },
+        {
+          "label": "Редактируемый MIDI",
+          "path": "artwork/experiments/05-dance/dance-of-three-cells.mid"
+        },
+        {
+          "label": "Графическая партитура",
+          "path": "artwork/experiments/05-dance/graphic-score.pdf"
+        }
+      ],
+      "source": "artwork/experiments/05-dance/build.py",
+      "note": "Новая композиция и синтезированный ансамбль. Музыка придумана для проекта; это не запись грибов и не традиционная узбекская музыка."
+    },
+    {
+      "id": "06",
+      "title": "Нематода",
+      "mode": "Играть",
+      "owner": "Claude",
+      "angle": "Почва с точки зрения того, кого собираются поймать",
+      "description": "Вы — маленький круглый червь. Запах обещает еду, а гриб умеет обещать убедительно. Управляйте движением и попробуйте пережить встречу с кольцами и клейкими сетями.",
+      "image": "artwork/experiments/review/nematoda-desktop-fixed.png",
+      "primary": "media/experiments/nematoda/nematoda.html",
+      "action": "Оказаться по другую сторону ловушки",
+      "source": "media/experiments/nematoda/index.html",
+      "note": "Мышь, стрелки или касание на телефоне. Проверены запуск, движение и счётчик времени на компьютере и телефоне. Игровая фантазия в воображаемой почве."
+    },
+    {
+      "id": "03",
+      "title": "Диссертация, которая проросла",
+      "mode": "Читать",
+      "owner": "Codex",
+      "angle": "Коллективная поэзия как комическое приключение",
+      "description": "Шесть кадров: находка в каталоге, первые буквы, соседи, открытые окна, маленький круглый червь и страница, которая ждёт ещё одного читателя.",
+      "image": "artwork/experiments/03-comic/the-dissertation-that-sprouted.png",
+      "primary": "artwork/experiments/03-comic/the-dissertation-that-sprouted.png",
+      "action": "Открыть комикс",
+      "links": [
+        {
+          "label": "Печатная версия A3",
+          "path": "artwork/experiments/03-comic/comic-print.pdf"
+        }
+      ],
+      "source": "artwork/experiments/03-comic/prompt.txt",
+      "note": "Вымышленная история и персонажи. Героиня не является портретом Флоры Файзиевой."
+    },
+    {
+      "id": "04",
+      "title": "Бюро самопрорастающих названий",
+      "mode": "Сделать",
+      "owner": "Codex",
+      "angle": "Бумажная комедия против желания всё классифицировать",
+      "description": "Заполненный образец и пустая копия. Бланк разрешает разрастаться за пределы бланка, а отрывные корешки можно передать соседям.",
+      "image": "artwork/experiments/04-bureau/cover.png",
+      "primary": "artwork/experiments/04-bureau/self-germinating-form.pdf",
+      "action": "Распечатать формуляр",
+      "links": [],
+      "source": "artwork/experiments/04-bureau/build.py",
+      "note": "Вымышленный художественный документ."
+    },
+    {
+      "id": "07",
+      "title": "Буквы, которые выращивают себя",
+      "mode": "Смотреть",
+      "owner": "Claude",
+      "angle": "Название как организм вместо надписи о нём",
+      "description": "Три строки заселяет ветвящийся алгоритм. У букв появляются тонкие ответвления и бирюзовые кольца: заглавие больше не объясняет грибницу — само становится грибницей.",
+      "image": "media/output/experiments/hyphatype/hyphatype_preview.png",
+      "primary": "media/output/experiments/hyphatype/hyphatype_poster.png",
+      "action": "Рассмотреть выросшие буквы",
+      "links": [
+        {
+          "label": "Векторный постер SVG",
+          "path": "media/output/experiments/hyphatype/hyphatype_poster.svg"
+        }
+      ],
+      "source": "media/experiments/hyphatype/build.py",
+      "note": "Алгоритмический типографический рисунок, не устанавливаемый шрифт."
+    },
+    {
+      "id": "09",
+      "title": "Почти бесконечная песнь",
+      "mode": "Участвовать",
+      "owner": "Claude",
+      "angle": "Название как правило для поэтической игры двух голосов",
+      "description": "Машина перемешивает новые строки и возвращает заглавие как припев. Нажмите «Для двух голосов ×4» и читайте строфы по очереди: человеческая интонация каждый раз меняет один и тот же механизм.",
+      "image": "artwork/experiments/review/poemachine.png",
+      "primary": "media/experiments/poemachine/poemachine.html",
+      "action": "Запустить перекличку",
+      "links": [
+        {
+          "label": "Образец текста",
+          "path": "media/output/experiments/poemachine/sample_seed1975.txt"
+        }
+      ],
+      "source": "media/experiments/poemachine/poemachine.py",
+      "note": "Все строки написаны для проекта. Документированная коллективная сетевая поэма здесь не воспроизводится."
+    },
+    {
+      "id": "10",
+      "title": "Тамагриб",
+      "mode": "Играть",
+      "owner": "Claude · комната знакомства Codex",
+      "angle": "Забота о хищнике вместо борьбы с ним",
+      "description": "Ему нужен агар, еда и терпеливый хозяин. Терминальный питомец строит ловушки, ведёт дневник, обижается на ложку и думает о диссертации. Можно начать с его записей, не запуская игру.",
+      "image": "media/output/experiments/tamagrib/screen.png",
+      "primary": "artwork/experiments/10-pet/index.html",
+      "action": "Познакомиться с питомцем",
+      "links": [
+        {
+          "label": "Дневник культуры",
+          "path": "media/output/experiments/tamagrib/demo_diary.txt"
+        }
+      ],
+      "source": "media/experiments/tamagrib/tamagrib.py",
+      "note": "Терминальная игра: Python 3 + curses; поле подстраивается под окно. Проверены 80 × 24 и изменение размера. --demo даёт текстовую версию. Между запусками культура не сохраняется."
+    }
+  ],
+  "shortlist": [
+    {
+      "id": "02",
+      "title": "Приглашение к столу",
+      "reason": "самый тёплый вход: один ответ — и вы уже участник сцены."
+    },
+    {
+      "id": "01",
+      "title": "Коллективный мицелий",
+      "reason": "поэзия становится совместным действием: следующая ветка зависит от вашей строки."
+    },
+    {
+      "id": "05",
+      "title": "Танец трёх клеток",
+      "reason": "смена самого чувства: вместо объяснения картинки возникает ритм, который можно подхватить."
+    }
+  ],
+  "bonus": [
+    {
+      "title": "Бумажный театр",
+      "image": "media/output/experiments/papertheatre/sheet1_preview.png",
+      "path": "media/output/experiments/papertheatre/papertheatre_A4.pdf",
+      "description": "Четыре листа с задником, кольцом, отдельными клетками и червём. Детали и схема размещены внутри страниц. Макет для сборки: физический механизм пока не проверен."
+    },
+    {
+      "title": "Ловчее кольцо: игра вдвоём",
+      "image": "media/output/experiments/cardgame/cards_preview.png",
+      "path": "media/output/experiments/cardgame/lovchee_kolco_cards_A4.pdf",
+      "description": "36 карточек: Гриб против Червя. Порядок действий, повтор карты и двусторонняя раскладка уточнены. Прототип настольной игры; баланс ещё не проверен за столом."
+    },
+    {
+      "title": "Петри-театр",
+      "image": "media/output/experiments/soilsim/soilsim_0035s.png",
+      "path": "media/output/experiments/soilsim/soilsim.mp4",
+      "description": "40 секунд жизни воображаемой чашки: след, рост, встреча. Программная художественная схема с разными механизмами ловли; не откалиброванная биологическая модель."
+    },
+    {
+      "title": "Кольцо, которое можно держать",
+      "image": "media/output/experiments/ringstl/ringstl_preview.png",
+      "path": "media/output/experiments/ringstl/ring_rest.stl",
+      "description": "Три STL-эскиза кольца и подвески. Сетки состоят из пересекающихся оболочек; шов подвески требует ремонта. Заготовки для доработки, физическая печать не проверена.",
+      "links": [
+        {
+          "label": "Раздутое кольцо",
+          "path": "media/output/experiments/ringstl/ring_inflated.stl"
+        },
+        {
+          "label": "Подвеска",
+          "path": "media/output/experiments/ringstl/ring_pendant.stl"
+        }
+      ]
+    }
+  ],
+  "correspondence": [
+    {
+      "title": "01 · Два автора, разные рабочие столы",
+      "path": "media/input/night-lab-letter-01.txt"
+    },
+    {
+      "title": "02 · Claude требует от картинки действия",
+      "path": "coordination/claude-critique-excerpt.txt"
+    },
+    {
+      "title": "03 · Codex принимает вызов и возвращает рецензию",
+      "path": "media/input/night-lab-letter-08.txt"
+    }
+  ]
+}

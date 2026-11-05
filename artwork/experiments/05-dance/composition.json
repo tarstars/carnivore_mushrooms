@@ -1,0 +1,5312 @@
+{
+  "title": "Танец трёх клеток",
+  "tempo_quarter": 152,
+  "meter": "7/8",
+  "grouping": [
+    3,
+    2,
+    2
+  ],
+  "bars": 32,
+  "music_seconds": 44.21052631578947,
+  "audio_seconds": 47.21052631578947,
+  "tracks": [
+    "plucked melody",
+    "answer",
+    "bass",
+    "bells",
+    "percussion"
+  ],
+  "authorship": "Original composition and synthesis for the project by Codex, 2026",
+  "scope": "An invented lively ensemble, not traditional Uzbek music, recorded fungi or a biological model.",
+  "events": [
+    {
+      "track": "melody",
+      "bar": 0,
+      "beat": 0,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 0,
+      "beat": 1,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 0,
+      "beat": 2,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 0,
+      "beat": 3,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 0,
+      "beat": 4,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 0,
+      "beat": 5,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 0,
+      "beat": 6,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 0,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 0,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 0,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 0,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 0,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 0,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 0,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 0,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 0,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 0,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "melody",
+      "bar": 1,
+      "beat": 0,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 1,
+      "beat": 1,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 1,
+      "beat": 2,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 1,
+      "beat": 3,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 1,
+      "beat": 4,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 1,
+      "beat": 5,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 1,
+      "beat": 6,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 1,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 1,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 1,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 1,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 1,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 1,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 1,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 1,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 1,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 1,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "melody",
+      "bar": 2,
+      "beat": 0,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 2,
+      "beat": 1,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 2,
+      "beat": 2,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 2,
+      "beat": 3,
+      "length": 0.78,
+      "note": 71,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 2,
+      "beat": 4,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 2,
+      "beat": 5,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 2,
+      "beat": 6,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 2,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 2,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 2,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 2,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 2,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 2,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 2,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 2,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 2,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 2,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "melody",
+      "bar": 3,
+      "beat": 0,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 3,
+      "beat": 1,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 3,
+      "beat": 2,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 3,
+      "beat": 3,
+      "length": 0.78,
+      "note": 71,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 3,
+      "beat": 4,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 3,
+      "beat": 5,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 3,
+      "beat": 6,
+      "length": 0.92,
+      "note": 64,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 3,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 3,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 3,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 3,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 3,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 3,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 3,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 3,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 3,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 3,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "melody",
+      "bar": 4,
+      "beat": 0,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 4,
+      "beat": 1,
+      "length": 0.78,
+      "note": 72,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 4,
+      "beat": 2,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 4,
+      "beat": 3,
+      "length": 0.78,
+      "note": 72,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 4,
+      "beat": 4,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 4,
+      "beat": 5,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 4,
+      "beat": 6,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 4,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 4,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 4,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 4,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 4,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 4,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 4,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 4,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 4,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 4,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 4,
+      "beat": 1,
+      "length": 0.86,
+      "note": 84,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 4,
+      "beat": 3,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 4,
+      "beat": 5,
+      "length": 0.86,
+      "note": 81,
+      "velocity": 51
+    },
+    {
+      "track": "melody",
+      "bar": 5,
+      "beat": 0,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 5,
+      "beat": 1,
+      "length": 0.78,
+      "note": 72,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 5,
+      "beat": 2,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 5,
+      "beat": 3,
+      "length": 0.78,
+      "note": 72,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 5,
+      "beat": 4,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 5,
+      "beat": 5,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 5,
+      "beat": 6,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 5,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 5,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 5,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 5,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 5,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 5,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 5,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 5,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 5,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 5,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 5,
+      "beat": 1,
+      "length": 0.86,
+      "note": 84,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 5,
+      "beat": 3,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 5,
+      "beat": 5,
+      "length": 0.86,
+      "note": 81,
+      "velocity": 51
+    },
+    {
+      "track": "melody",
+      "bar": 6,
+      "beat": 0,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 6,
+      "beat": 1,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 6,
+      "beat": 2,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 6,
+      "beat": 3,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 6,
+      "beat": 4,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 6,
+      "beat": 5,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 6,
+      "beat": 6,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 6,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 6,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 6,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 6,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 6,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 6,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 6,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 6,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 6,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 6,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 6,
+      "beat": 1,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 6,
+      "beat": 3,
+      "length": 0.86,
+      "note": 78,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 6,
+      "beat": 5,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "melody",
+      "bar": 7,
+      "beat": 0,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 7,
+      "beat": 1,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 7,
+      "beat": 2,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 7,
+      "beat": 3,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 7,
+      "beat": 4,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 7,
+      "beat": 5,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 7,
+      "beat": 6,
+      "length": 0.92,
+      "note": 62,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 7,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 7,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 7,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 7,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 7,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 7,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 7,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 7,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 7,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 7,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 7,
+      "beat": 1,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 7,
+      "beat": 3,
+      "length": 0.86,
+      "note": 78,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 7,
+      "beat": 5,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "melody",
+      "bar": 8,
+      "beat": 0,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 8,
+      "beat": 1,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 8,
+      "beat": 2,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 8,
+      "beat": 3,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 8,
+      "beat": 4,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 8,
+      "beat": 5,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 8,
+      "beat": 6,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 8,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 8,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 8,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 8,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 8,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 8,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 8,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 8,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 8,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 8,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 8,
+      "beat": 1,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 8,
+      "beat": 3,
+      "length": 0.86,
+      "note": 76,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 8,
+      "beat": 5,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "melody",
+      "bar": 9,
+      "beat": 0,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 9,
+      "beat": 1,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 9,
+      "beat": 2,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 9,
+      "beat": 3,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 9,
+      "beat": 4,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 9,
+      "beat": 5,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 9,
+      "beat": 6,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 9,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 9,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 9,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 9,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 9,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 9,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 9,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 9,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 9,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 9,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 9,
+      "beat": 1,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 9,
+      "beat": 3,
+      "length": 0.86,
+      "note": 76,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 9,
+      "beat": 5,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "melody",
+      "bar": 10,
+      "beat": 0,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 10,
+      "beat": 1,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 10,
+      "beat": 2,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 10,
+      "beat": 3,
+      "length": 0.78,
+      "note": 71,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 10,
+      "beat": 4,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 10,
+      "beat": 5,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 10,
+      "beat": 6,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 10,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 10,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 10,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 10,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 10,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 10,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 10,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 10,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 10,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 10,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 10,
+      "beat": 1,
+      "length": 0.86,
+      "note": 83,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 10,
+      "beat": 3,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 10,
+      "beat": 5,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "melody",
+      "bar": 11,
+      "beat": 0,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 11,
+      "beat": 1,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 11,
+      "beat": 2,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 11,
+      "beat": 3,
+      "length": 0.78,
+      "note": 71,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 11,
+      "beat": 4,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 11,
+      "beat": 5,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 11,
+      "beat": 6,
+      "length": 0.92,
+      "note": 64,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 11,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 11,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 11,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 11,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 11,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 11,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 11,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 11,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 11,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 11,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 11,
+      "beat": 1,
+      "length": 0.86,
+      "note": 83,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 11,
+      "beat": 3,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 11,
+      "beat": 5,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "melody",
+      "bar": 12,
+      "beat": 0,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 12,
+      "beat": 1,
+      "length": 0.78,
+      "note": 84,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 12,
+      "beat": 2,
+      "length": 0.78,
+      "note": 86,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 12,
+      "beat": 3,
+      "length": 0.78,
+      "note": 84,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 12,
+      "beat": 4,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 12,
+      "beat": 5,
+      "length": 0.78,
+      "note": 79,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 12,
+      "beat": 6,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 12,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 12,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 12,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 12,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 12,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 12,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 12,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 12,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 12,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 12,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 12,
+      "beat": 1,
+      "length": 0.86,
+      "note": 84,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 12,
+      "beat": 3,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 12,
+      "beat": 5,
+      "length": 0.86,
+      "note": 81,
+      "velocity": 51
+    },
+    {
+      "track": "bell",
+      "bar": 12,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 12,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 12,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 13,
+      "beat": 0,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 13,
+      "beat": 1,
+      "length": 0.78,
+      "note": 84,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 13,
+      "beat": 2,
+      "length": 0.78,
+      "note": 86,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 13,
+      "beat": 3,
+      "length": 0.78,
+      "note": 84,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 13,
+      "beat": 4,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 13,
+      "beat": 5,
+      "length": 0.78,
+      "note": 79,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 13,
+      "beat": 6,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 13,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 13,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 13,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 13,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 13,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 13,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 13,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 13,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 13,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 13,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 13,
+      "beat": 1,
+      "length": 0.86,
+      "note": 84,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 13,
+      "beat": 3,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 13,
+      "beat": 5,
+      "length": 0.86,
+      "note": 81,
+      "velocity": 51
+    },
+    {
+      "track": "bell",
+      "bar": 13,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 13,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 13,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 14,
+      "beat": 0,
+      "length": 0.78,
+      "note": 79,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 14,
+      "beat": 1,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 14,
+      "beat": 2,
+      "length": 0.78,
+      "note": 76,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 14,
+      "beat": 3,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 14,
+      "beat": 4,
+      "length": 0.78,
+      "note": 76,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 14,
+      "beat": 5,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 14,
+      "beat": 6,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 14,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 14,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 14,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 14,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 14,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 14,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 14,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 14,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 14,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 14,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 14,
+      "beat": 1,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 14,
+      "beat": 3,
+      "length": 0.86,
+      "note": 78,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 14,
+      "beat": 5,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "bell",
+      "bar": 14,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 14,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 14,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 15,
+      "beat": 0,
+      "length": 0.78,
+      "note": 79,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 15,
+      "beat": 1,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 15,
+      "beat": 2,
+      "length": 0.78,
+      "note": 76,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 15,
+      "beat": 3,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 15,
+      "beat": 4,
+      "length": 0.78,
+      "note": 76,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 15,
+      "beat": 5,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 15,
+      "beat": 6,
+      "length": 0.92,
+      "note": 74,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 15,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 15,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 15,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 15,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 15,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 15,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 15,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 15,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 15,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 15,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 15,
+      "beat": 1,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 15,
+      "beat": 3,
+      "length": 0.86,
+      "note": 78,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 15,
+      "beat": 5,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "bell",
+      "bar": 15,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 15,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 15,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 16,
+      "beat": 0,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 16,
+      "beat": 1,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 16,
+      "beat": 2,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 16,
+      "beat": 3,
+      "length": 0.78,
+      "note": 79,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 16,
+      "beat": 4,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 16,
+      "beat": 5,
+      "length": 0.78,
+      "note": 76,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 16,
+      "beat": 6,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 16,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 16,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 16,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 16,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 16,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 16,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 16,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 16,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 16,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 16,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 16,
+      "beat": 1,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 16,
+      "beat": 3,
+      "length": 0.86,
+      "note": 76,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 16,
+      "beat": 5,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "bell",
+      "bar": 16,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 16,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 16,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 17,
+      "beat": 0,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 17,
+      "beat": 1,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 17,
+      "beat": 2,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 17,
+      "beat": 3,
+      "length": 0.78,
+      "note": 79,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 17,
+      "beat": 4,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 17,
+      "beat": 5,
+      "length": 0.78,
+      "note": 76,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 17,
+      "beat": 6,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 17,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 17,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 17,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 17,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 17,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 17,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 17,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 17,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 17,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 17,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 17,
+      "beat": 1,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 17,
+      "beat": 3,
+      "length": 0.86,
+      "note": 76,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 17,
+      "beat": 5,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "bell",
+      "bar": 17,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 17,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 17,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 18,
+      "beat": 0,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 18,
+      "beat": 1,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 18,
+      "beat": 2,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 18,
+      "beat": 3,
+      "length": 0.78,
+      "note": 83,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 18,
+      "beat": 4,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 18,
+      "beat": 5,
+      "length": 0.78,
+      "note": 79,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 18,
+      "beat": 6,
+      "length": 0.78,
+      "note": 76,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 18,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 18,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 18,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 18,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 18,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 18,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 18,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 18,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 18,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 18,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 18,
+      "beat": 1,
+      "length": 0.86,
+      "note": 83,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 18,
+      "beat": 3,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 18,
+      "beat": 5,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "bell",
+      "bar": 18,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 18,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 18,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 19,
+      "beat": 0,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 19,
+      "beat": 1,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 19,
+      "beat": 2,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 19,
+      "beat": 3,
+      "length": 0.78,
+      "note": 83,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 19,
+      "beat": 4,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 19,
+      "beat": 5,
+      "length": 0.78,
+      "note": 79,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 19,
+      "beat": 6,
+      "length": 0.92,
+      "note": 76,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 19,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 19,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 19,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 19,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 19,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 19,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 19,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 19,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 19,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 19,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 19,
+      "beat": 1,
+      "length": 0.86,
+      "note": 83,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 19,
+      "beat": 3,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 19,
+      "beat": 5,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "bell",
+      "bar": 19,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 19,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 19,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 20,
+      "beat": 0,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 20,
+      "beat": 1,
+      "length": 0.78,
+      "note": 84,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 20,
+      "beat": 2,
+      "length": 0.78,
+      "note": 86,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 20,
+      "beat": 3,
+      "length": 0.78,
+      "note": 84,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 20,
+      "beat": 4,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 20,
+      "beat": 5,
+      "length": 0.78,
+      "note": 79,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 20,
+      "beat": 6,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 20,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 20,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 20,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 20,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 20,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 20,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 20,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 20,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 20,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 20,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 20,
+      "beat": 1,
+      "length": 0.86,
+      "note": 84,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 20,
+      "beat": 3,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 20,
+      "beat": 5,
+      "length": 0.86,
+      "note": 81,
+      "velocity": 51
+    },
+    {
+      "track": "bell",
+      "bar": 20,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 20,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 20,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 21,
+      "beat": 0,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 21,
+      "beat": 1,
+      "length": 0.78,
+      "note": 84,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 21,
+      "beat": 2,
+      "length": 0.78,
+      "note": 86,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 21,
+      "beat": 3,
+      "length": 0.78,
+      "note": 84,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 21,
+      "beat": 4,
+      "length": 0.78,
+      "note": 81,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 21,
+      "beat": 5,
+      "length": 0.78,
+      "note": 79,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 21,
+      "beat": 6,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 21,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 21,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 21,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 21,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 21,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 21,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 21,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 21,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 21,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 21,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 21,
+      "beat": 1,
+      "length": 0.86,
+      "note": 84,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 21,
+      "beat": 3,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 21,
+      "beat": 5,
+      "length": 0.86,
+      "note": 81,
+      "velocity": 51
+    },
+    {
+      "track": "bell",
+      "bar": 21,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 21,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 21,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 22,
+      "beat": 0,
+      "length": 0.78,
+      "note": 79,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 22,
+      "beat": 1,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 22,
+      "beat": 2,
+      "length": 0.78,
+      "note": 76,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 22,
+      "beat": 3,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 22,
+      "beat": 4,
+      "length": 0.78,
+      "note": 76,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 22,
+      "beat": 5,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 22,
+      "beat": 6,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 22,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 22,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 22,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 22,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 22,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 22,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 22,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 22,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 22,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 22,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 22,
+      "beat": 1,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 22,
+      "beat": 3,
+      "length": 0.86,
+      "note": 78,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 22,
+      "beat": 5,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "bell",
+      "bar": 22,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 22,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 22,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 23,
+      "beat": 0,
+      "length": 0.78,
+      "note": 79,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 23,
+      "beat": 1,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 23,
+      "beat": 2,
+      "length": 0.78,
+      "note": 76,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 23,
+      "beat": 3,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 23,
+      "beat": 4,
+      "length": 0.78,
+      "note": 76,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 23,
+      "beat": 5,
+      "length": 0.78,
+      "note": 78,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 23,
+      "beat": 6,
+      "length": 0.92,
+      "note": 74,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 23,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 23,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 23,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 23,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 23,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 23,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 23,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 23,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 23,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 23,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 23,
+      "beat": 1,
+      "length": 0.86,
+      "note": 74,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 23,
+      "beat": 3,
+      "length": 0.86,
+      "note": 78,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 23,
+      "beat": 5,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "bell",
+      "bar": 23,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 23,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 23,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 24,
+      "beat": 0,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 24,
+      "beat": 1,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 24,
+      "beat": 2,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 24,
+      "beat": 3,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 24,
+      "beat": 4,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 24,
+      "beat": 5,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 24,
+      "beat": 6,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 24,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 24,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 24,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 24,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 24,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 24,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 24,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 24,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 24,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 24,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 24,
+      "beat": 1,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 24,
+      "beat": 3,
+      "length": 0.86,
+      "note": 76,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 24,
+      "beat": 5,
+      "length": 0.86,
+      "note": 78,
+      "velocity": 51
+    },
+    {
+      "track": "melody",
+      "bar": 25,
+      "beat": 0,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 25,
+      "beat": 1,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 25,
+      "beat": 2,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 25,
+      "beat": 3,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 25,
+      "beat": 4,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 25,
+      "beat": 5,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 25,
+      "beat": 6,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 25,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 25,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 25,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 25,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 25,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 25,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 25,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 25,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 25,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 25,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 25,
+      "beat": 1,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 25,
+      "beat": 3,
+      "length": 0.86,
+      "note": 76,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 25,
+      "beat": 5,
+      "length": 0.86,
+      "note": 78,
+      "velocity": 51
+    },
+    {
+      "track": "melody",
+      "bar": 26,
+      "beat": 0,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 26,
+      "beat": 1,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 26,
+      "beat": 2,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 26,
+      "beat": 3,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 26,
+      "beat": 4,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 26,
+      "beat": 5,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 26,
+      "beat": 6,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 26,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 26,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 26,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 26,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 26,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 26,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 26,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 26,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 26,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 26,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 26,
+      "beat": 1,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 26,
+      "beat": 3,
+      "length": 0.86,
+      "note": 76,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 26,
+      "beat": 5,
+      "length": 0.86,
+      "note": 78,
+      "velocity": 51
+    },
+    {
+      "track": "melody",
+      "bar": 27,
+      "beat": 0,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 27,
+      "beat": 1,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 27,
+      "beat": 2,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 27,
+      "beat": 3,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 27,
+      "beat": 4,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 27,
+      "beat": 5,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 27,
+      "beat": 6,
+      "length": 0.92,
+      "note": 62,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 27,
+      "beat": 0,
+      "length": 1.5,
+      "note": 38,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 27,
+      "beat": 3,
+      "length": 1.5,
+      "note": 45,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 27,
+      "beat": 5,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 27,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 27,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 27,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 27,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 27,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 27,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 27,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "answer",
+      "bar": 27,
+      "beat": 1,
+      "length": 0.86,
+      "note": 79,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 27,
+      "beat": 3,
+      "length": 0.86,
+      "note": 76,
+      "velocity": 51
+    },
+    {
+      "track": "answer",
+      "bar": 27,
+      "beat": 5,
+      "length": 0.86,
+      "note": 78,
+      "velocity": 51
+    },
+    {
+      "track": "melody",
+      "bar": 28,
+      "beat": 0,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 28,
+      "beat": 1,
+      "length": 0.78,
+      "note": 72,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 28,
+      "beat": 2,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 28,
+      "beat": 3,
+      "length": 0.78,
+      "note": 72,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 28,
+      "beat": 4,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 28,
+      "beat": 5,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 28,
+      "beat": 6,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 28,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 28,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 28,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 28,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 28,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 28,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 28,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 28,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 28,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 28,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "bell",
+      "bar": 28,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 28,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 28,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 29,
+      "beat": 0,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 29,
+      "beat": 1,
+      "length": 0.78,
+      "note": 72,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 29,
+      "beat": 2,
+      "length": 0.78,
+      "note": 74,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 29,
+      "beat": 3,
+      "length": 0.78,
+      "note": 72,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 29,
+      "beat": 4,
+      "length": 0.78,
+      "note": 69,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 29,
+      "beat": 5,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 29,
+      "beat": 6,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 29,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 29,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 29,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 29,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 29,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 29,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 29,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 29,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 29,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 29,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "bell",
+      "bar": 29,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 29,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 29,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 30,
+      "beat": 0,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 30,
+      "beat": 1,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 30,
+      "beat": 2,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 30,
+      "beat": 3,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 30,
+      "beat": 4,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 30,
+      "beat": 5,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 30,
+      "beat": 6,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 66
+    },
+    {
+      "track": "bass",
+      "bar": 30,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 30,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 30,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 30,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 30,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 30,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 30,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 30,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 30,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 30,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "bell",
+      "bar": 30,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 30,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 30,
+      "beat": 5,
+      "length": 2.2,
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "track": "melody",
+      "bar": 31,
+      "beat": 0,
+      "length": 0.78,
+      "note": 67,
+      "velocity": 84
+    },
+    {
+      "track": "melody",
+      "bar": 31,
+      "beat": 1,
+      "length": 0.78,
+      "note": 66,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 31,
+      "beat": 2,
+      "length": 0.78,
+      "note": 64,
+      "velocity": 66
+    },
+    {
+      "track": "melody",
+      "bar": 31,
+      "beat": 3,
+      "length": 0.78,
+      "note": 62,
+      "velocity": 84
+    },
+    {
+      "track": "bass",
+      "bar": 31,
+      "beat": 0,
+      "length": 1.5,
+      "note": 43,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 31,
+      "beat": 3,
+      "length": 1.5,
+      "note": 50,
+      "velocity": 62
+    },
+    {
+      "track": "bass",
+      "bar": 31,
+      "beat": 5,
+      "length": 1.5,
+      "note": 55,
+      "velocity": 62
+    },
+    {
+      "track": "drums",
+      "bar": 31,
+      "beat": 0,
+      "length": 0.15,
+      "note": 36,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 31,
+      "beat": 1,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 31,
+      "beat": 2,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 31,
+      "beat": 3,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 31,
+      "beat": 4,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "drums",
+      "bar": 31,
+      "beat": 5,
+      "length": 0.15,
+      "note": 37,
+      "velocity": 66
+    },
+    {
+      "track": "drums",
+      "bar": 31,
+      "beat": 6,
+      "length": 0.15,
+      "note": 42,
+      "velocity": 29
+    },
+    {
+      "track": "bell",
+      "bar": 31,
+      "beat": 0,
+      "length": 2.2,
+      "note": 74,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 31,
+      "beat": 3,
+      "length": 2.2,
+      "note": 78,
+      "velocity": 45
+    },
+    {
+      "track": "bell",
+      "bar": 31,
+      "beat": 5,
+      "length": 2,
+      "note": 81,
+      "velocity": 45
+    }
+  ]
+}

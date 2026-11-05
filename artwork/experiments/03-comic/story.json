@@ -1,0 +1,14 @@
+{
+  "title": "Диссертация, которая проросла",
+  "scope": "An invented archival fable. The fictional protagonist is not a portrait of Flora Fayzieva. Microscopic imagery is a visual metaphor.",
+  "captions": [
+    "В каталоге было тихо.",
+    "Кто-то прочёл заглавие вслух.",
+    "Другой подставил рифму.",
+    "Третий открыл окно.",
+    "У слова нашлась петля.",
+    "И у страницы появился следующий читатель."
+  ],
+  "method": "Built-in image generation, followed by original external captions in a print layout.",
+  "prompt": "prompt.txt"
+}

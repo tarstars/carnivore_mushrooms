@@ -1,0 +1,31 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Почти бесконечная песнь</title>
+<style>
+:root{--paper:#f3ead8;--ink:#3a2f26;--terra:#b85a3a;--jade:#2f8a74;--rule:#d8c9a8}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.5 Georgia,"Times New Roman",serif;padding:24px max(16px,4vw)}
+h1{font-weight:400;font-size:clamp(28px,5vw,44px);letter-spacing:.04em;margin:0 0 4px}h1 em{color:var(--terra);font-style:italic}
+p.sub{color:#6b5a4a;margin:0 0 18px;font-size:15px;font-family:system-ui,sans-serif}
+.stanza{white-space:pre-wrap;padding:16px 18px;border-left:3px solid var(--jade);background:#faf5ea;margin:0 0 14px;max-width:60ch}
+.stanza:last-of-type{animation:in .5s ease-out}@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.stanza{animation:none}}
+button{font:600 14px system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;background:#d9a23c;color:#2a1d08;border:0;padding:12px 22px;cursor:pointer;margin:0 8px 18px 0}
+button.alt{background:transparent;border:1px solid var(--rule);color:var(--ink)}
+select{font:15px system-ui,sans-serif;padding:8px}
+footer{color:#6b5a4a;font-size:13px;font-family:system-ui,sans-serif;margin-top:28px;max-width:70ch}
+</style></head><body>
+<h1>Почти бесконечная <em>песнь</em></h1>
+<p class="sub">Машина строф. Каждая строфа кончается на «Узбекистана». Все строки написаны для проекта; сетевая поэма не цитируется.</p>
+<button id="more">Ещё строфу</button><button id="two" class="alt">Для двух голосов ×4</button>
+<select id="theme"><option value="any">любая тема</option><option value="soil">почва</option><option value="archive">архив</option><option value="city">город</option><option value="night">ночь</option><option value="science">наука</option></select>
+<div id="out"></div>
+<p style="font:14px system-ui"><a data-project-channel href="https://t.me/phys_math_dev" target="_blank" rel="noopener noreferrer" style="color:inherit;text-underline-offset:3px">Telegram · @phys_math_dev ↗</a></p>
+<footer>Исходный генератор — <code>poemachine.py</code> (python3, без зависимостей). Режим <code>--endless</code> печатает по строфе каждые несколько секунд: двое читают по очереди.</footer>
+<script>
+const D={"couplets": [["Под коркой глины, где не слышен ветер,", "где корень дышит и никто не светел,", "soil"], ["В пыли архива, в шелесте бумаги,", "в чернильных реках, в выцветшей отваге,", "archive"], ["Над Регистаном плавится жара,", "и тень минарета ползёт со двора,", "city"], ["Когда к полуночи стихает Ташкент", "и лампа над столом даёт последний свет,", "night"], ["Нить тоньше волоса, прозрачнее стекла,", "и терпелива, как сама зола,", "science"], ["Червь ищет пищу, слепо и упрямо,", "и ползёт на запах, ползёт прямо,", "science"], ["В чайхане старик рассказывал без спешки,", "ломая лепёшку, двигая орешки,", "city"], ["Три клетки ждут, не двигаясь ни разу,", "созреют за ночь и сработают сразу,", "science"], ["Страница сто сорок девять, список книг,", "и чей-то карандашный тихий штрих,", "archive"], ["Между арыком и сухой чинарой,", "где воздух пахнет пылью и отарой,", "soil"], ["Вернись домой, не задевай петли,", "не трогай стенок, что внутри росли,", "science"], ["Учёный совет собрался в среду,", "налили чай и продолжили беседу,", "archive"], ["Сквозь дырочки сетчатой тени тута", "в полдень ложится золотая смута,", "city"], ["Не хоронили, не рубили, не сжигали,", "а просто ждали, терпеливо ждали,", "night"], ["В одной горсти земли их больше, чем людей", "во всех столицах всех семи морей,", "science"], ["Диссертация лежит на правах рукописи,", "и буквы в ней не выцвели, не скисли,", "archive"], ["У кольца три щеки, и каждая щека", "ждёт прикосновения червяка,", "science"], ["Когда ты думаешь, что всё уже прочёл,", "за строчкой строчка, как за пчёлкой пчёл,", "night"]], "third": [["раскрывают рты посреди тумана", "night"], ["просыпаются раньше муэдзина и чабана", "city"], ["не смотрятся в зеркало старого дивана", "archive"], ["тянут нити тоньше паутины и обмана", "science"], ["ждут под корнями старого платана", "soil"], ["обнимают червя три раза, как три брата из дастана", "science"], ["не знают ни границы, ни тарана", "soil"], ["растут из буквы, из строки, из плана", "archive"], ["молчат, как рыба на столе у Мирзо-Хана", "city"], ["делят ночь на до и после капкана", "night"], ["пьют росу из глиняного чана", "soil"], ["просачиваются в сон сквозь трещины экрана", "night"], ["сидят в земле, как косточка в тутовнике — не рано", "soil"], ["ждут того, кто проползёт из-за бархана", "soil"], ["согласованы учёным советом, без изъяна", "archive"], ["ловят то, что ловится, без гнева и без плана", "science"]], "refrains": ["хищные грибы Узбекистана.", "хищные грибы Узбекистана!", "хищные грибы Узбекистана…", "— хищные грибы Узбекистана."]};
+const bags={};function draw(pool,key){let b=bags[key];if(!b||!b.length){b=pool.slice();for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}bags[key]=b}return b.pop()}
+function cap(s){return s[0].toUpperCase()+s.slice(1)}
+function stanza(theme){const c=D.couplets.filter(x=>theme==='any'||x[2]===theme);const t=D.third.filter(x=>theme==='any'||x[1]===theme);
+const [l1,l2]=draw(c.length?c:D.couplets,'c'+theme);const [l3]=draw(t.length?t:D.third,'t'+theme);const r=Math.random()<0.3?D.refrains[Math.floor(Math.random()*D.refrains.length)]:D.refrains[0];
+return l1+"\n"+l2+"\n"+cap(l3)+"\n"+cap(r)}
+const out=document.getElementById('out');function add(n){const th=document.getElementById('theme').value;for(let i=0;i<n;i++){const d=document.createElement('div');d.className='stanza';d.textContent=stanza(th);out.appendChild(d)}d=out.lastChild;if(d)d.scrollIntoView({block:'nearest'})}
+document.getElementById('more').onclick=()=>add(1);document.getElementById('two').onclick=()=>add(4);add(2);
+</script></body></html>

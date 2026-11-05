@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Нематода</title>
+</head>
+<body>
+<style>
+/* Layout: one dark underground screen; the field fills the viewport, a thin field-guide strip on the right (stacks below on phones). Single committed dark world. */
+:root{
+  --ink:#0b0e22; --ink-2:#141a3a; --soil:#1c1612;
+  --celadon:#a8dec8; --celadon-deep:#5aa38f; --honey:#ecc46e; --gold:#deb25c; --ivory:#ece6d6; --terracotta:#ba603e; --mute:#8b8aa0;
+  --display:"EB Garamond", Georgia, "Times New Roman", "Noto Serif", serif; /* system fonts only: the collection runs offline */
+  --body:"IBM Plex Sans", "Helvetica Neue", Arial, "DejaVu Sans", sans-serif;
+  color-scheme:dark;
+}
+html,body{height:100%}
+body{margin:0;background:var(--ink);color:var(--ivory);font-family:var(--body);font-size:14px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0;box-sizing:border-box}
+.app{height:100%;display:grid;grid-template-columns:1fr 300px;gap:14px;padding-block:12px;box-sizing:border-box}
+@media (max-width:760px){.app{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) auto;height:auto;min-height:100%}}
+.stage{position:relative;min-width:0;min-height:320px;border:1px solid #2a3160;background:radial-gradient(ellipse at 50% 0%,#231a0f 0%,var(--ink) 38%,#070914 100%);overflow:hidden}
+canvas{display:block;width:100%;height:100%;touch-action:none}
+.hud{position:absolute;left:12px;top:10px;display:flex;gap:18px;font-variant-numeric:tabular-nums;color:var(--ivory);pointer-events:none}
+.hud b{font-weight:500;color:var(--gold);letter-spacing:.06em;text-transform:uppercase;font-size:11px;display:block}
+.hud span{font-family:var(--display);font-size:22px;line-height:1}
+.note{position:absolute;left:12px;bottom:10px;max-width:60%;font-size:12px;color:var(--mute);pointer-events:none;transition:opacity .4s}
+.overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(7,9,20,.78);padding:20px;box-sizing:border-box}
+.overlay[hidden]{display:none}
+.card{max-width:520px;text-align:center}
+.card h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,6vw,56px);letter-spacing:.14em;margin:0 0 6px;text-wrap:balance;color:var(--ivory)}
+.card h1 em{font-style:normal;color:var(--honey)}
+.card p{margin:8px auto;max-width:46ch;color:#c9c4b6}
+.card .how{font-size:13px;color:var(--mute)}
+button{font:500 14px var(--body);letter-spacing:.08em;text-transform:uppercase;background:var(--honey);color:#2a1d08;border:0;padding:12px 26px;margin-top:14px;cursor:pointer}
+button:focus-visible{outline:2px solid var(--ivory);outline-offset:3px}
+.guide{display:flex;flex-direction:column;gap:14px;overflow:auto;font-size:13px;color:#c9c4b6;padding-right:4px}
+.guide h2{font-family:var(--display);font-weight:400;font-size:24px;margin:0;color:var(--ivory);letter-spacing:.06em}
+.guide h3{font-family:var(--display);font-style:italic;font-weight:400;font-size:18px;margin:0 0 2px;color:var(--gold)}
+.guide p{margin:0}
+.sp{display:block;width:100%;height:64px}
+.rule{height:1px;background:#2a3160}
+.cap{font-size:11px;color:var(--mute);letter-spacing:.04em}
+kbd{font:12px var(--body);border:1px solid #3a3f6a;border-radius:3px;padding:0 5px;color:var(--ivory)}
+</style>
+
+<div class="app">
+  <div class="stage">
+    <canvas id="c" aria-label="Игровое поле: нематода в почве среди ловушек хищных грибов"></canvas>
+    <div class="hud"><div><b>Бактерии</b><span id="score">0</span></div><div><b>Секунды</b><span id="time">0</span></div><div><b>Ловушек</b><span id="traps">0</span></div></div>
+    <div class="note" id="note">Двигайте мышью или пальцем. Запах тянет червя к ловушкам.</div>
+    <div class="overlay" id="start">
+      <div class="card">
+        <h1>НЕМА<em>ТОДА</em></h1>
+        <p>Вы — круглый червь в воображаемой почве. Ешьте бактерии. Гриб пахнет едой и партнёром, и запах тянет вас к его ловушкам.</p>
+        <p class="how">Мышь, палец или <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>. Попав в клейкую сеть, дёргайтесь: быстро меняйте направление.</p>
+        <button id="go">Ползти</button>
+        <p class="cap">Игровая схема по мотивам реальной биологии; масштаб и время условны. Художественная интерпретация.</p>
+      </div>
+    </div>
+    <div class="overlay" id="end" hidden>
+      <div class="card">
+        <h1 id="endTitle">Поймали</h1>
+        <p id="endText"></p>
+        <p class="how" id="endStats"></p>
+        <button id="again">Ещё раз</button>
+      </div>
+    </div>
+  </div>
+  <aside class="guide">
+    <p style="font-size:13px;color:var(--honey);margin:0"><a data-project-channel href="https://t.me/phys_math_dev" target="_blank" rel="noopener noreferrer" style="color:inherit;text-underline-offset:3px">Telegram · @phys_math_dev ↗</a></p>
+    <h2>Полевой определитель</h2>
+    <div>
+      <h3>Drechslerella dactyloides</h3>
+      <svg class="sp" viewBox="0 0 200 64" aria-hidden="true"><g fill="none" stroke="#a8dec8" stroke-width="7" stroke-linecap="round"><path d="M46 12 A20 20 0 0 1 66 32"/><path d="M62 44 A20 20 0 0 1 30 44"/><path d="M26 32 A20 20 0 0 1 42 13"/></g><path d="M46 52 L46 62" stroke="#ece6d6" stroke-width="2"/><g fill="none" stroke="#a8dec8" stroke-width="11" stroke-linecap="round"><path d="M136 16 A16 16 0 0 1 150 32"/><path d="M146 44 A16 16 0 0 1 124 44"/><path d="M122 32 A16 16 0 0 1 134 17"/></g><path d="M136 52 L136 62" stroke="#ece6d6" stroke-width="2"/><path d="M100 36 h14 m-3 -3 l3 3 l-3 3" stroke="#deb25c" stroke-width="1.5" fill="none"/></svg>
+      <p>Сжимающееся кольцо из <b>трёх клеток</b> на ножке. Созревает несколько часов, потом ждёт. Червь задевает внутреннюю стенку, и клетки раздуваются внутрь за 0,1–1 с, втрое увеличивая объём. В игре: кольцо-бутон безопасно, зрелое кольцо срабатывает мгновенно.</p>
+    </div>
+    <div class="rule"></div>
+    <div>
+      <h3>Arthrobotrys oligospora</h3>
+      <svg class="sp" viewBox="0 0 200 64" aria-hidden="true"><g fill="none" stroke="#ece6d6" stroke-width="2"><path d="M20 60 C 60 40, 90 50, 180 20"/><ellipse cx="70" cy="36" rx="16" ry="10"/><ellipse cx="96" cy="30" rx="12" ry="14"/><ellipse cx="128" cy="34" rx="18" ry="9"/><ellipse cx="112" cy="44" rx="10" ry="7"/></g><g fill="#5aa38f"><circle cx="58" cy="30" r="2"/><circle cx="104" cy="18" r="2"/><circle cx="140" cy="40" r="2"/><circle cx="84" cy="44" r="2"/></g></svg>
+      <p>Клейкая трёхмерная сеть из сросшихся петель гиф. Сети появляются, когда еды мало и рядом есть черви: гриб чувствует их сигналы. В игре: чем меньше бактерий на поле, тем быстрее растут сети.</p>
+    </div>
+    <div class="rule"></div>
+    <div>
+      <h3>Запах</h3>
+      <p>Гриб выделяет летучие вещества, похожие на запах еды и полового партнёра, и червь ползёт на них (Hsueh et al., 2017). В игре золотая пыль показывает запах, он слегка тянет ваш курс.</p>
+    </div>
+    <div class="rule"></div>
+    <p class="cap">Игровая схема по мотивам названия диссертации Ф. Х. Файзиевой (Ташкент, 1975) и современных исследований ловчих грибов. Почва воображаемая; два названных вида показаны как общая биология, а не как находки в Узбекистане.</p>
+  </aside>
+</div>
+
+<script>
+(function(){
+const cv=document.getElementById('c'),ctx=cv.getContext('2d');
+const $=id=>document.getElementById(id);
+let W=0,H=0,DPR=1;
+function resize(){const r=cv.getBoundingClientRect();DPR=Math.min(2,window.devicePixelRatio||1);W=r.width;H=r.height;cv.width=W*DPR;cv.height=H*DPR;ctx.setTransform(DPR,0,0,DPR,0,0);}
+window.addEventListener('resize',resize);resize();
+const rnd=(a,b)=>a+Math.random()*(b-a);
+const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// ---------- state ----------
+let S=null;
+function newGame(){
+  S={t:0,score:0,alive:true,why:'',worm:[],hyphae:[],rings:[],nets:[],bact:[],motes:[],msg:'',msgT:0,lastTrapT:0,wiggle:[],stuck:null,target:{x:W*0.5,y:H*0.5},keys:{},usingKeys:false,caughtT:0,ringHit:null};
+  const n=26;for(let i=0;i<n;i++)S.worm.push({x:W*0.5-i*7,y:H*0.5});
+  for(let i=0;i<4;i++)addHypha();
+  for(let i=0;i<18;i++)S.bact.push({x:rnd(20,W-20),y:rnd(20,H-20)});
+  for(let i=0;i<2;i++)spawnTrap(true);
+}
+function addHypha(){
+  const side=Math.floor(rnd(0,4));let x,y,a;
+  if(side===0){x=rnd(0,W);y=-10;a=Math.PI/2}else if(side===1){x=W+10;y=rnd(0,H);a=Math.PI}else if(side===2){x=rnd(0,W);y=H+10;a=-Math.PI/2}else{x=-10;y=rnd(0,H);a=0}
+  a+=rnd(-0.5,0.5);const pts=[{x,y}];const L=12+Math.floor(rnd(0,10));
+  for(let i=0;i<L;i++){a+=rnd(-0.5,0.5);x+=Math.cos(a)*rnd(22,40);y+=Math.sin(a)*rnd(22,40);pts.push({x,y});}
+  S.hyphae.push(pts);
+}
+function hyphaPoint(){const h=S.hyphae[Math.floor(rnd(0,S.hyphae.length))];const p=h[Math.floor(rnd(2,h.length))];return {x:p.x,y:p.y};}
+function spawnTrap(initial){
+  let p,tries=0;do{p=hyphaPoint();tries++}while(tries<20&&(p.x<10||p.x>W-10||p.y<10||p.y>H-10||dist(p,S.worm[0])<140));
+  if(Math.random()<0.5){S.rings.push({x:p.x,y:p.y,r:0,R:rnd(16,22),born:S.t,mature:rnd(6,10),infl:0,rot:rnd(0,6.28),fired:false});}
+  else{const loops=[];const k=3+Math.floor(rnd(0,3));for(let i=0;i<k;i++)loops.push({dx:rnd(-26,26),dy:rnd(-20,20),rx:rnd(9,16),ry:rnd(7,13),a:rnd(0,3.14)});S.nets.push({x:p.x,y:p.y,loops,born:S.t,grow:0});}
+  if(!initial)S.lastTrapT=S.t;
+}
+const dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
+
+// ---------- input ----------
+const stage=cv.parentElement;
+function setTarget(e){const r=cv.getBoundingClientRect();const p=e.touches?e.touches[0]:e;S.target={x:p.clientX-r.left,y:p.clientY-r.top};S.usingKeys=false;}
+cv.addEventListener('pointermove',e=>{if(S)setTarget(e)});
+cv.addEventListener('pointerdown',e=>{if(S)setTarget(e)});
+cv.addEventListener('touchmove',e=>{if(S){setTarget(e);e.preventDefault()}},{passive:false});
+window.addEventListener('keydown',e=>{if(!S)return;if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){S.keys[e.key]=true;S.usingKeys=true;e.preventDefault()}});
+window.addEventListener('keyup',e=>{if(S)S.keys[e.key]=false});
+
+// ---------- update ----------
+function step(dt){
+  if(!S.alive){S.caughtT+=dt;return}
+  S.t+=dt;
+  const head=S.worm[0];
+  // desired direction
+  let dx=0,dy=0;
+  if(S.usingKeys){dx=(S.keys.ArrowRight?1:0)-(S.keys.ArrowLeft?1:0);dy=(S.keys.ArrowDown?1:0)-(S.keys.ArrowUp?1:0);if(dx||dy){const l=Math.hypot(dx,dy);dx/=l;dy/=l}}
+  else{dx=S.target.x-head.x;dy=S.target.y-head.y;const l=Math.hypot(dx,dy);if(l<6){dx=0;dy=0}else{dx/=l;dy/=l}}
+  // scent lure: traps pull the heading
+  let lx=0,ly=0;
+  for(const r of S.rings){const d=Math.max(40,dist(r,head));lx+=(r.x-head.x)/d*(1800/(d*d));ly+=(r.y-head.y)/d*(1800/(d*d));}
+  for(const n of S.nets){const d=Math.max(40,dist(n,head));lx+=(n.x-head.x)/d*(2600/(d*d));ly+=(n.y-head.y)/d*(2600/(d*d));}
+  const lureK=0.9;dx+=lx*lureK;dy+=ly*lureK;
+  const moving=Math.hypot(dx,dy)>0.05;
+  // heading smoothing
+  head.h=head.h===undefined?0:head.h;
+  if(moving){const want=Math.atan2(dy,dx);let da=want-head.h;da=Math.atan2(Math.sin(da),Math.cos(da));head.h+=da*Math.min(1,dt*7);}
+  let speed=moving?95:0;
+  if(S.stuck){speed=8;}
+  // wiggle detection for escaping nets
+  S.wiggle.push({t:S.t,h:head.h});S.wiggle=S.wiggle.filter(w=>S.t-w.t<1.2);
+  head.x+=Math.cos(head.h)*speed*dt;head.y+=Math.sin(head.h)*speed*dt;
+  head.x=Math.max(8,Math.min(W-8,head.x));head.y=Math.max(8,Math.min(H-8,head.y));
+  // undulation + body follow
+  const wob=Math.sin(S.t*9)*2.2*(moving?1:0.2);
+  for(let i=1;i<S.worm.length;i++){const p=S.worm[i],q=S.worm[i-1];let ex=p.x-q.x,ey=p.y-q.y;const l=Math.hypot(ex,ey)||1;const seg=6.5;const nx=-ey/l,ny=ex/l;p.x=q.x+ex/l*seg+nx*wob*Math.sin(i*0.6)*dt*20;p.y=q.y+ey/l*seg+ny*wob*Math.sin(i*0.6)*dt*20;}
+  // bacteria
+  for(let i=S.bact.length-1;i>=0;i--){if(dist(S.bact[i],head)<9){S.bact.splice(i,1);S.score++;}}
+  if(S.bact.length<14&&Math.random()<dt*0.7)S.bact.push({x:rnd(20,W-20),y:rnd(20,H-20)});
+  // nutrient limitation induces traps faster
+  const scarcity=Math.max(0,1-S.bact.length/14);
+  const interval=Math.max(2.2,7-S.t*0.08)*(1-0.6*scarcity);
+  if(S.t-S.lastTrapT>interval&&S.rings.length+S.nets.length<22){spawnTrap(false);if(scarcity>0.5)say('Еды мало: гриб чувствует червей и строит сети быстрее.');}
+  if(Math.random()<dt*0.08&&S.hyphae.length<10)addHypha();
+  // rings
+  for(const r of S.rings){
+    const age=S.t-r.born;r.r=r.R*Math.min(1,age/2.5);
+    const isMature=age>r.mature;
+    if(r.fired){r.infl=Math.min(1,r.infl+dt/0.35);continue}
+    if(isMature&&dist(r,head)<r.r*0.62){r.fired=true;S.ringHit=r;caught('ring');}
+  }
+  // nets
+  for(const n of S.nets){
+    n.grow=Math.min(1,(S.t-n.born)/3);
+    if(n.grow<0.5)continue;
+    for(const L of n.loops){const lx2=n.x+L.dx,ly2=n.y+L.dy;const d=Math.hypot((head.x-lx2)/L.rx,(head.y-ly2)/L.ry);
+      if(d<1&&!S.stuck){S.stuck={net:n,t0:S.t};say('Клейкая сеть. Дёргайтесь: резко меняйте направление!');}}
+  }
+  if(S.stuck){
+    // escape if heading reversed often enough within 1.2 s
+    let flips=0;for(let i=1;i<S.wiggle.length;i++){let da=S.wiggle[i].h-S.wiggle[i-1].h;da=Math.atan2(Math.sin(da),Math.cos(da));if(Math.abs(da)>0.35)flips++;}
+    if(flips>=7){const n=S.stuck.net;S.nets.splice(S.nets.indexOf(n),1);S.stuck=null;S.wiggle=[];say('Вырвались. Сеть порвана, но гриб построит новую.');}
+    else if(S.t-S.stuck.t0>2.6){caught('net');}
+  }
+  // scent motes
+  if(!reduced){for(const r of S.rings)if(Math.random()<dt*2)S.motes.push({x:r.x,y:r.y,vx:rnd(-12,12),vy:rnd(-12,12),a:1});
+    for(const n of S.nets)if(Math.random()<dt*3)S.motes.push({x:n.x,y:n.y,vx:rnd(-14,14),vy:rnd(-14,14),a:1});}
+  for(let i=S.motes.length-1;i>=0;i--){const m=S.motes[i];m.x+=m.vx*dt;m.y+=m.vy*dt;m.a-=dt*0.25;if(m.a<=0)S.motes.splice(i,1);}
+  if(S.msgT>0)S.msgT-=dt;
+}
+function say(s){S.msg=s;S.msgT=4;}
+function caught(kind){
+  S.alive=false;S.why=kind;
+  const secs=Math.round(S.t);
+  $('endTitle').textContent=kind==='ring'?'Кольцо сработало':'Сеть держит';
+  $('endText').textContent=kind==='ring'
+    ?'Вы задели внутреннюю стенку зрелого кольца. Три клетки раздулись внутрь за долю секунды и зажали тело. У настоящей Drechslerella dactyloides это занимает 0,1–1 с, а объём клеток вырастает примерно втрое.'
+    :'Петли сети Arthrobotrys oligospora покрыты клеем. Удержанного червя гифы прорастают насквозь и переваривают за сутки. Дёргаться можно, но в природе спастись удаётся редко.';
+  $('endStats').textContent=`Съедено бактерий: ${S.score}. Прожито секунд: ${secs}. Ловушек на поле: ${S.rings.length+S.nets.length}.`;
+  setTimeout(()=>{$('end').hidden=false;$('again').focus()},kind==='ring'?700:300);
+}
+
+// ---------- draw ----------
+function draw(){
+  ctx.clearRect(0,0,W,H);
+  // soil grain
+  ctx.fillStyle='rgba(30,24,20,.35)';for(let i=0;i<40;i++){const x=(i*97)%W,y=(i*53)%H;ctx.fillRect(x,y,2,2)}
+  // hyphae
+  ctx.lineWidth=1.6;ctx.strokeStyle='rgba(236,230,214,.35)';ctx.lineCap='round';
+  for(const h of S.hyphae){ctx.beginPath();ctx.moveTo(h[0].x,h[0].y);for(let i=1;i<h.length;i++)ctx.lineTo(h[i].x,h[i].y);ctx.stroke();}
+  // scent motes
+  for(const m of S.motes){ctx.fillStyle=`rgba(222,178,92,${0.35*m.a})`;ctx.beginPath();ctx.arc(m.x,m.y,1.3,0,6.28);ctx.fill();}
+  // bacteria
+  for(const b of S.bact){ctx.fillStyle='rgba(168,222,200,.9)';ctx.beginPath();ctx.ellipse(b.x,b.y,3.2,2,0.4,0,6.28);ctx.fill();}
+  // nets
+  for(const n of S.nets){const g=n.grow;ctx.strokeStyle=`rgba(236,230,214,${0.25+0.55*g})`;ctx.lineWidth=1.4;
+    for(const L of n.loops){ctx.beginPath();ctx.ellipse(n.x+L.dx,n.y+L.dy,L.rx*g,L.ry*g,L.a,0,6.28);ctx.stroke();
+      if(g>0.5){ctx.fillStyle='rgba(90,163,143,.9)';for(let k=0;k<3;k++){const a=L.a+k*2.1;ctx.beginPath();ctx.arc(n.x+L.dx+Math.cos(a)*L.rx*g,n.y+L.dy+Math.sin(a)*L.ry*g,1.6,0,6.28);ctx.fill();}}}
+  }
+  // worm (behind rings' near half; simple: draw before rings)
+  drawWorm();
+  // rings: three cells
+  for(const r of S.rings){
+    const age=S.t-r.born;const mature=age>r.mature;
+    const R=r.r;if(R<1)continue;
+    // stalk
+    ctx.strokeStyle='rgba(236,230,214,.6)';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(r.x+Math.cos(r.rot+2.1)*R,r.y+Math.sin(r.rot+2.1)*R);ctx.lineTo(r.x+Math.cos(r.rot+2.1)*(R+10),r.y+Math.sin(r.rot+2.1)*(R+10));ctx.stroke();
+    const thick0=R*0.34,infl=r.infl;
+    for(let c=0;c<3;c++){
+      const a0=r.rot+c*2.094+0.05,a1=r.rot+(c+1)*2.094-0.05;
+      ctx.beginPath();
+      const steps=14;
+      for(let i=0;i<=steps;i++){const s=i/steps,a=a0+(a1-a0)*s;const bump=Math.pow(Math.sin(Math.PI*s),0.8);const ro=R*(1+0.06*infl*bump);ctx.lineTo(r.x+Math.cos(a)*ro,r.y+Math.sin(a)*ro);}
+      for(let i=steps;i>=0;i--){const s=i/steps,a=a0+(a1-a0)*s;const bump=Math.pow(Math.sin(Math.PI*s),0.8);const ri=R*(1-thick0/R-0.08*Math.sin(Math.PI*s))-R*0.42*infl*bump;ctx.lineTo(r.x+Math.cos(a)*Math.max(ri,R*0.12),r.y+Math.sin(a)*Math.max(ri,R*0.12));}
+      ctx.closePath();
+      ctx.fillStyle=mature?`rgba(168,222,200,${0.55+0.3*infl})`:'rgba(168,222,200,.28)';ctx.fill();
+      ctx.strokeStyle='rgba(236,230,214,.8)';ctx.lineWidth=1;ctx.stroke();
+    }
+    if(!mature){ctx.fillStyle='rgba(139,138,160,.8)';ctx.font='10px '+getComputedStyle(document.body).fontFamily;ctx.fillText('зреет',r.x+R+4,r.y+3);}
+  }
+  // stuck indicator
+  if(S.stuck){const n=S.stuck.net;ctx.strokeStyle='rgba(186,96,62,.8)';ctx.lineWidth=1;ctx.setLineDash([3,3]);ctx.beginPath();ctx.arc(n.x,n.y,34,0,6.28);ctx.stroke();ctx.setLineDash([]);}
+}
+function drawWorm(){
+  const w=S.worm,n=w.length;
+  for(let i=n-1;i>=0;i--){const s=1-i/(n-1);const taper=s<0.85?Math.pow(Math.sin(Math.PI*(0.08+0.92*s)),0.55):Math.pow(1-(s-0.85)/0.15,0.5)*0.9+0.1;const r=4.2*(0.25+0.75*taper);
+    ctx.fillStyle=S.alive?'rgba(236,196,110,.92)':'rgba(236,196,110,.55)';ctx.beginPath();ctx.arc(w[i].x,w[i].y,r,0,6.28);ctx.fill();}
+  ctx.strokeStyle='rgba(186,96,62,.35)';ctx.lineWidth=1.2;ctx.beginPath();ctx.moveTo(w[2].x,w[2].y);for(let i=3;i<n-2;i++)ctx.lineTo(w[i].x,w[i].y);ctx.stroke();
+  ctx.strokeStyle='rgba(236,230,214,.45)';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(w[3].x-1,w[3].y-1.6);for(let i=4;i<n-4;i++)ctx.lineTo(w[i].x-1,w[i].y-1.6);ctx.stroke();
+}
+
+// ---------- loop ----------
+let last=0,running=false;
+function frame(ts){
+  if(!running)return;
+  const dt=Math.max(0,Math.min(0.05,(ts-last)/1000));last=ts;
+  step(dt);draw();
+  $('score').textContent=S.score;$('time').textContent=Math.floor(S.t);$('traps').textContent=S.rings.length+S.nets.length;
+  const note=$('note');if(S.msgT>0){note.textContent=S.msg;note.style.opacity=1}else{note.style.opacity=0.55;note.textContent='Запах тянет к ловушкам. Бутоны колец безопасны, зрелые — нет.'}
+  requestAnimationFrame(frame);
+}
+function start(){resize();newGame();$('start').hidden=true;$('end').hidden=true;last=performance.now();if(!running){running=true;requestAnimationFrame(frame);}}
+$('go').addEventListener('click',start);
+$('again').addEventListener('click',start);
+// still frame at rest
+resize();newGame();draw();
+})();
+</script>
+
+</body>
+</html>

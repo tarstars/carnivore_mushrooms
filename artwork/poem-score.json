@@ -1,0 +1,110 @@
+{
+  "title": "Рифма — тоже ловчее кольцо",
+  "duration_seconds": 50,
+  "authorship": "New original project poem by Codex, 2026-11-04. Separate from the documented collective internet poem.",
+  "direction": "Begin with a dry catalogue voice; let people answer one another; the title becomes a chorus; end as if the page has caught the reader. Cinnabar, ink and paper, restrained comic menace. These are performance instructions, not a claim that an audio performance has been recorded.",
+  "cues": [
+    {
+      "start": 0,
+      "end": 2,
+      "voice": "archive",
+      "text": "В каталоге было тихо."
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "voice": "archive",
+      "text": "Ташкент. Семьдесят пятый."
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "voice": "archive",
+      "text": "Двадцать семь страниц —"
+    },
+    {
+      "start": 6,
+      "end": 9,
+      "voice": "archive",
+      "text": "и целая ночь между строк."
+    },
+    {
+      "start": 9,
+      "end": 11,
+      "voice": "first_voice",
+      "text": "Кто-то прочёл заглавие вслух."
+    },
+    {
+      "start": 11,
+      "end": 13.5,
+      "voice": "second_voice",
+      "text": "Другой подставил рифму."
+    },
+    {
+      "start": 13.5,
+      "end": 16,
+      "voice": "third_voice",
+      "text": "Третий не успел закрыть окно:"
+    },
+    {
+      "start": 16,
+      "end": 19,
+      "voice": "voices_growing",
+      "text": "из букв уже тянулись гифы."
+    },
+    {
+      "start": 19,
+      "end": 23,
+      "voice": "chorus",
+      "text": "Хищные грибы Узбекистана."
+    },
+    {
+      "start": 23,
+      "end": 26,
+      "voice": "reader",
+      "text": "У каждой строчки появился голос."
+    },
+    {
+      "start": 26,
+      "end": 29,
+      "voice": "reader_and_echo",
+      "text": "У каждого из голосов — сосед."
+    },
+    {
+      "start": 29,
+      "end": 33,
+      "voice": "reader",
+      "text": "Мы думали, что сочиняем о грибнице."
+    },
+    {
+      "start": 33,
+      "end": 37,
+      "voice": "page_chorus",
+      "text": "Она писала нами много лет."
+    },
+    {
+      "start": 37,
+      "end": 41,
+      "voice": "reader",
+      "text": "Рифма — тоже ловчее кольцо."
+    },
+    {
+      "start": 41,
+      "end": 44,
+      "voice": "reader_close",
+      "text": "Сначала ищешь слово."
+    },
+    {
+      "start": 44,
+      "end": 46,
+      "voice": "reader_close",
+      "text": "Потом оно"
+    },
+    {
+      "start": 46,
+      "end": 50,
+      "voice": "chorus_fading",
+      "text": "не отпускает."
+    }
+  ]
+}

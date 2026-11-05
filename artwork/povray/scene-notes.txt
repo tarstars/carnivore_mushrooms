@@ -1,0 +1,55 @@
+PREFERRED REVISION — ЖИВАЯ РИФМА
+
+The warm revision is rhyme-garden.pov / rhyme-garden.png (1600 x 1000).
+It adds broad green leaves, aqua water, coral/cobalt/marigold glazed fungi,
+patterned ceramic edges and bright light. The final framing keeps the title
+on the front edge inside the image. This is the delivered native 3D still.
+
+Rebuild:
+  python3 artwork/povray/render.py --scene rhyme-garden.pov --output rhyme-garden.png
+
+The earlier dark study below is retained as an archive, not the preferred view.
+
+РИФМА — ЛОВЧЕЕ КОЛЬЦО
+
+A native POV-Ray study for «Хищные грибы Узбекистана».
+
+The metaphor becomes sculpture: the gold word «СЛОВО» crosses a three-part
+celadon ring above an open book. Thin branching strokes and loose letters grow
+across raised Cyrillic print. Porcelain mushrooms stand on the pages. This is
+a literary fantasy, not a species reconstruction. The book contains lines
+from the project's original poem; it does not reproduce the collective poem.
+
+All shapes, text, surface textures, lighting, reflections and refraction are
+described by the editable scene. No image maps or generated bitmap assets
+are used. The three ring cells are separate CSG intersections of a torus and
+angular half-spaces; the fungi use lathe surfaces and sphere sweeps. The final
+still uses radiosity, area lights and adaptive anti-aliasing.
+
+Files:
+  rhyme-trap.pov     scene description
+  render.py         headless renderer wrapper; defaults to 4 CPU threads
+  still.ini         equivalent full-quality render settings
+  rhyme-trap.png    full-quality 1600 x 1000 still
+  preview.png       earlier 800 x 500 composition/light test
+
+Rebuild from the project root:
+  python3 artwork/povray/render.py
+  python3 artwork/povray/render.py --preview
+  python3 artwork/povray/render.py --clock 0 --output open.png
+  python3 artwork/povray/render.py --clock 0.5 --output closed.png
+
+clock ranges from 0 to 1. It changes tube thickness while keeping the outer
+structure recognizable as three cells. A repeated sweep would make a poetic
+breathing loop; real trap inflation is not being demonstrated or timed here.
+The gold word and thread are static in this study. No animation is delivered.
+
+Checked with the locally installed POV-Ray 3.7.0.10 build. Only POV-Ray and
+Python's standard library are required. The wrapper copies the system's
+DejaVu Serif font into this directory, with its license, for Cyrillic text and
+compatibility with the installed POV-Ray file-access policy. No machine
+configuration is changed.
+
+Official documentation consulted:
+  https://www.povray.org/documentation/3.7.0/r3_4.html
+  https://www.povray.org/documentation/3.7.0/t2_3.html

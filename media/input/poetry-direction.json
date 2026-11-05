@@ -1,0 +1,159 @@
+{
+  "status": "NEW USER STEERING: poetry is a central missing layer, not an optional closing slogan.",
+  "source_context": {
+    "title": "The collective poem behind «Хищные грибы Узбекистана»",
+    "accessed": "2026-11-04",
+    "scope": "A documented literary afterlife of a real scientific title. Dates below establish circulation, not an unverified date of invention.",
+    "sources": [
+      {
+        "id": "P1",
+        "url": "https://onem0re.blogspot.com/2018/02/blog-post_28.html",
+        "date": "2018-02-28",
+        "publisher": "Ivan Bezuglov, «Ещё один блог»",
+        "title": "Хищные грибы Узбекистана. Почти бесконечная песнь",
+        "evidence": "The dated post describes itself as preserving a collective social-media contribution and prints an extended sequence of stanzas. It points to a Facebook post as its source. Bezuglov is the republisher, not established as sole author.",
+        "limit": "The upstream Facebook post was not accessible. The full contributor list, first stanza author and first publication date were not established."
+      },
+      {
+        "id": "P2",
+        "url": "https://www.penta-club.ru/forum/topic/86841-%D0%B0%D0%BD%D0%B5%D0%BA%D0%B4%D0%BE%D1%82/page__st__14700",
+        "date": "2023-10-15",
+        "publisher": "HEKTO, Penta Club, post #14726",
+        "title": "Repost in the «Анекдот» thread",
+        "evidence": "A post dated 15 October 2023 repeats the collective poem and links to the 2018 blog and the Facebook source.",
+        "limit": "The thread itself began in 2010. Its 2010 thread date must not be used to date this poem."
+      },
+      {
+        "id": "P3",
+        "url": "https://forum.toadstool.ru/topic/6671-%D1%81%D0%B0%D0%B3%D0%B0-%D0%BE-%D1%85%D0%B8%D1%89%D0%BD%D1%8B%D1%85-%D0%B3%D1%80%D0%B8%D0%B1%D0%B0%D1%85-%D1%83%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B0/",
+        "date": "2026-04-18",
+        "publisher": "BJIADuMuP, «Грибы средней полосы» forum",
+        "title": "Сага о хищных грибах Узбекистана",
+        "evidence": "A later compilation explicitly makes the poetry central and links to several branches and mirrors.",
+        "limit": "The poster's account of origins is not independent proof of a first author. Its quoted fantastical account of ancient man-eating fungi is not accepted as Uzbek folklore or biology."
+      }
+    ],
+    "interpretation": {
+      "form": "An open-ended, multi-voice sequence, predominantly quatrains, repeatedly returning to the title as a refrain. Rhyme around «Узбекистана» acts as a constraint that invites another stanza.",
+      "registers": "Mock epic, horror comedy, domestic absurdity, scientific and bureaucratic language, mythology and literary/pop-cultural allusions. Uneven metres and tonal collisions are part of its communal character.",
+      "conceptual_link": "My reading: the poem's branching, distributed authorship resembles a mycelium; the recurring rhyme works metaphorically like a trapping ring. This is an artistic interpretation, not a claim made by the biological papers.",
+      "revised_direction": "Give the phrase its chorus. Show a dry catalogue entry growing into a shared, unruly language-world. Use typography, repetition, and comic unease alongside the biology.",
+      "cultural_caution": "This is Russian-language internet verse about a place-name, not established Uzbek oral tradition. Do not treat its grotesque stereotypes or man-eating imagery as ethnographic fact."
+    },
+    "reuse": "Link to the existing poem and discuss its form. Do not reproduce the complete collective text or claim it as newly authored. The new poem at artwork/poem.txt is a separate original response."
+  },
+  "original_project_poem": "Рифма — тоже ловчее кольцо\n\nВ каталоге было тихо.\nТашкент. Семьдесят пятый.\nДвадцать семь страниц —\nи целая ночь между строк.\n\nКто-то прочёл заглавие вслух.\nДругой подставил рифму.\nТретий не успел закрыть окно:\nиз букв уже тянулись гифы.\n\nХищные грибы Узбекистана.\n\nУ каждой строчки появился голос.\nУ каждого из голосов — сосед.\nМы думали, что сочиняем о грибнице.\nОна писала нами много лет.\n\nРифма — тоже ловчее кольцо.\nСначала ищешь слово.\nПотом оно\nне отпускает.\n",
+  "performance_score": {
+    "title": "Рифма — тоже ловчее кольцо",
+    "duration_seconds": 50,
+    "authorship": "New original project poem by Codex, 2026-11-04. Separate from the documented collective internet poem.",
+    "direction": "Begin with a dry catalogue voice; let people answer one another; the title becomes a chorus; end as if the page has caught the reader. Cinnabar, ink and paper, restrained comic menace. These are performance instructions, not a claim that an audio performance has been recorded.",
+    "cues": [
+      {
+        "start": 0,
+        "end": 2,
+        "voice": "archive",
+        "text": "В каталоге было тихо."
+      },
+      {
+        "start": 2,
+        "end": 4,
+        "voice": "archive",
+        "text": "Ташкент. Семьдесят пятый."
+      },
+      {
+        "start": 4,
+        "end": 6,
+        "voice": "archive",
+        "text": "Двадцать семь страниц —"
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "voice": "archive",
+        "text": "и целая ночь между строк."
+      },
+      {
+        "start": 9,
+        "end": 11,
+        "voice": "first_voice",
+        "text": "Кто-то прочёл заглавие вслух."
+      },
+      {
+        "start": 11,
+        "end": 13.5,
+        "voice": "second_voice",
+        "text": "Другой подставил рифму."
+      },
+      {
+        "start": 13.5,
+        "end": 16,
+        "voice": "third_voice",
+        "text": "Третий не успел закрыть окно:"
+      },
+      {
+        "start": 16,
+        "end": 19,
+        "voice": "voices_growing",
+        "text": "из букв уже тянулись гифы."
+      },
+      {
+        "start": 19,
+        "end": 23,
+        "voice": "chorus",
+        "text": "Хищные грибы Узбекистана."
+      },
+      {
+        "start": 23,
+        "end": 26,
+        "voice": "reader",
+        "text": "У каждой строчки появился голос."
+      },
+      {
+        "start": 26,
+        "end": 29,
+        "voice": "reader_and_echo",
+        "text": "У каждого из голосов — сосед."
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "voice": "reader",
+        "text": "Мы думали, что сочиняем о грибнице."
+      },
+      {
+        "start": 33,
+        "end": 37,
+        "voice": "page_chorus",
+        "text": "Она писала нами много лет."
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "voice": "reader",
+        "text": "Рифма — тоже ловчее кольцо."
+      },
+      {
+        "start": 41,
+        "end": 44,
+        "voice": "reader_close",
+        "text": "Сначала ищешь слово."
+      },
+      {
+        "start": 44,
+        "end": 46,
+        "voice": "reader_close",
+        "text": "Потом оно"
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "voice": "chorus_fading",
+        "text": "не отпускает."
+      }
+    ]
+  },
+  "poster_handoff": "input/poetry-illustration.png (rendering; Codex will copy when ready)",
+  "ownership": "Codex owns the poem, source context and poster; Claude owns media implementation. Leave the finished documentary companion intact.",
+  "request": "Read this brief and propose or build a separate poetic companion in your owned paths. Use an accumulating chorus, repeated title and page-to-hypha imagery. Prioritize the existing collective tradition in the framing, while clearly labeling this project's poem as an original response. Do not pass it off as the 2018 poem or reproduce that poem wholesale. Do not start another agent, install dependencies or call external speech/music services. If you change or add media, report precise readiness, factual caveats and tests in STATUS.md. Codex will review. The 50-second score is a reviewable reading plan; do not claim a spoken performance exists unless you have actually produced it."
+}
